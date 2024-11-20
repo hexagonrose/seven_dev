@@ -1,0 +1,33 @@
+7net-0 relaxation for Li20Ge2P4S24_222.
+GPU: NVIDIA RTX A5000
+Number of atoms: 400
+Energy: -1687.479248046875
+Relaxation done_0. Time : 184.29162335395813 s.
+Number of atoms: 400
+Energy: -1687.4791259765625
+Relaxation done_1. Time : 182.77005624771118 s.
+Number of atoms: 400
+Energy: -1687.4833984375
+Relaxation done_2. Time : 183.08007407188416 s.
+Number of atoms: 400
+Energy: -1687.4722900390625
+Relaxation done_3. Time : 182.5175666809082 s.
+Number of atoms: 400
+Energy: -1687.472900390625
+Relaxation done_4. Time : 182.52931094169617 s.
+Number of atoms: 400
+Energy: -1687.473876953125
+Relaxation done_5. Time : 182.57577443122864 s.
+Number of atoms: 400
+Energy: -1687.4725341796875
+Relaxation done_6. Time : 183.04569292068481 s.
+Number of atoms: 400
+Energy: -1687.4710693359375
+Relaxation done_7. Time : 182.7589032649994 s.
+Number of atoms: 400
+Energy: -1687.475341796875
+Relaxation done_8. Time : 182.53918981552124 s.
+Number of atoms: 400
+Energy: -1687.4716796875
+Relaxation done_9. Time : 182.49555826187134 s.
+Average time : 182.86037499904631 s.
