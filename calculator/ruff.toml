@@ -1,0 +1,10 @@
+line-length = 85
+
+[format]
+# Like Black, use double quotes for strings.
+quote-style = "single"
+docstring-code-format = true
+
+[lint]
+# Add the line-too-long rule to the enforced rule set.
+extend-select = ["E501"]

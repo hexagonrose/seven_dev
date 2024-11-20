@@ -1,0 +1,1520 @@
+Initiation done. Time : 2.8354907035827637 s.
+Relaxing /data2/haekwan98/sevennet_test/calculator/Li20Ge2P4S24/Li20Ge2P4S24.cif...
+matscipy ver
+atom2graph time : 0.0029015541076660156 s.
+      Step     Time          Energy          fmax
+FIRE:    0 16:13:45     -189.238724        5.158070
+matscipy ver
+atom2graph time : 0.0013670921325683594 s.
+FIRE:    1 16:13:45     -190.977676        3.802315
+matscipy ver
+atom2graph time : 0.0012481212615966797 s.
+FIRE:    2 16:13:46     -192.868484        3.170702
+matscipy ver
+atom2graph time : 0.001371622085571289 s.
+FIRE:    3 16:13:47     -194.340881        3.090336
+matscipy ver
+atom2graph time : 0.0013513565063476562 s.
+FIRE:    4 16:13:48     -195.517365        2.507365
+matscipy ver
+atom2graph time : 0.0014088153839111328 s.
+FIRE:    5 16:13:48     -196.422272        1.666341
+matscipy ver
+atom2graph time : 0.0013244152069091797 s.
+FIRE:    6 16:13:48     -197.069153        1.764393
+matscipy ver
+atom2graph time : 0.0014789104461669922 s.
+FIRE:    7 16:13:48     -197.605484        3.047098
+matscipy ver
+atom2graph time : 0.001451253890991211 s.
+FIRE:    8 16:13:48     -198.226593        3.042349
+matscipy ver
+atom2graph time : 0.0014755725860595703 s.
+FIRE:    9 16:13:48     -198.770401        1.660385
+matscipy ver
+atom2graph time : 0.0014595985412597656 s.
+FIRE:   10 16:13:48     -199.044830        3.932844
+matscipy ver
+atom2graph time : 0.001466512680053711 s.
+FIRE:   11 16:13:48     -199.370346        4.001335
+matscipy ver
+atom2graph time : 0.0014464855194091797 s.
+FIRE:   12 16:13:48     -199.844360        1.673258
+matscipy ver
+atom2graph time : 0.0012290477752685547 s.
+FIRE:   13 16:13:48     -200.241669        1.824443
+matscipy ver
+atom2graph time : 0.0012350082397460938 s.
+FIRE:   14 16:13:48     -200.658234        2.012075
+matscipy ver
+atom2graph time : 0.0014469623565673828 s.
+FIRE:   15 16:13:48     -201.150238        2.100438
+matscipy ver
+atom2graph time : 0.0012705326080322266 s.
+FIRE:   16 16:13:48     -201.626709        1.679215
+matscipy ver
+atom2graph time : 0.0012280941009521484 s.
+FIRE:   17 16:13:48     -201.992065        0.934908
+matscipy ver
+atom2graph time : 0.0014240741729736328 s.
+FIRE:   18 16:13:48     -202.230621        1.750849
+matscipy ver
+atom2graph time : 0.0014362335205078125 s.
+FIRE:   19 16:13:48     -202.514999        2.305344
+matscipy ver
+atom2graph time : 0.0014226436614990234 s.
+FIRE:   20 16:13:49     -202.917343        1.122936
+matscipy ver
+atom2graph time : 0.0014142990112304688 s.
+FIRE:   21 16:13:49     -203.259796        1.034682
+matscipy ver
+atom2graph time : 0.0012137889862060547 s.
+FIRE:   22 16:13:49     -203.548309        1.244720
+matscipy ver
+atom2graph time : 0.0014243125915527344 s.
+FIRE:   23 16:13:49     -203.830170        1.258632
+matscipy ver
+atom2graph time : 0.0014190673828125 s.
+FIRE:   24 16:13:49     -204.109558        0.863681
+matscipy ver
+atom2graph time : 0.0012617111206054688 s.
+FIRE:   25 16:13:49     -204.375931        0.693050
+matscipy ver
+atom2graph time : 0.0012509822845458984 s.
+FIRE:   26 16:13:49     -204.627319        1.070283
+matscipy ver
+atom2graph time : 0.0014617443084716797 s.
+FIRE:   27 16:13:49     -204.880402        0.901617
+matscipy ver
+atom2graph time : 0.0014140605926513672 s.
+FIRE:   28 16:13:49     -205.115479        0.600242
+matscipy ver
+atom2graph time : 0.0014543533325195312 s.
+FIRE:   29 16:13:49     -205.333374        0.792115
+matscipy ver
+atom2graph time : 0.001264810562133789 s.
+FIRE:   30 16:13:49     -205.557800        0.691452
+matscipy ver
+atom2graph time : 0.0014085769653320312 s.
+FIRE:   31 16:13:49     -205.772339        0.561983
+matscipy ver
+atom2graph time : 0.0014133453369140625 s.
+FIRE:   32 16:13:49     -205.958527        0.546179
+matscipy ver
+atom2graph time : 0.0014204978942871094 s.
+FIRE:   33 16:13:49     -206.128693        0.527077
+matscipy ver
+atom2graph time : 0.0012063980102539062 s.
+FIRE:   34 16:13:49     -206.295364        0.490083
+matscipy ver
+atom2graph time : 0.0014216899871826172 s.
+FIRE:   35 16:13:49     -206.453735        0.460442
+matscipy ver
+atom2graph time : 0.0014162063598632812 s.
+FIRE:   36 16:13:49     -206.597809        0.495820
+matscipy ver
+atom2graph time : 0.001422882080078125 s.
+FIRE:   37 16:13:49     -206.737000        0.454774
+matscipy ver
+atom2graph time : 0.0014085769653320312 s.
+FIRE:   38 16:13:49     -206.878235        0.408526
+matscipy ver
+atom2graph time : 0.0014157295227050781 s.
+FIRE:   39 16:13:49     -207.011108        0.396334
+matscipy ver
+atom2graph time : 0.0014066696166992188 s.
+FIRE:   40 16:13:49     -207.131577        0.386581
+matscipy ver
+atom2graph time : 0.0012555122375488281 s.
+FIRE:   41 16:13:49     -207.251129        0.364468
+matscipy ver
+atom2graph time : 0.0012469291687011719 s.
+FIRE:   42 16:13:49     -207.372467        0.344263
+matscipy ver
+atom2graph time : 0.0012440681457519531 s.
+FIRE:   43 16:13:49     -207.489349        0.391173
+matscipy ver
+atom2graph time : 0.001447439193725586 s.
+FIRE:   44 16:13:49     -207.604126        0.431469
+matscipy ver
+atom2graph time : 0.0012485980987548828 s.
+FIRE:   45 16:13:50     -207.724792        0.556471
+matscipy ver
+atom2graph time : 0.0012352466583251953 s.
+FIRE:   46 16:13:50     -207.856232        0.644116
+matscipy ver
+atom2graph time : 0.0014214515686035156 s.
+FIRE:   47 16:13:50     -207.998718        0.649494
+matscipy ver
+atom2graph time : 0.0012061595916748047 s.
+FIRE:   48 16:13:50     -208.148483        0.573560
+matscipy ver
+atom2graph time : 0.001407623291015625 s.
+FIRE:   49 16:13:50     -208.290771        0.406080
+matscipy ver
+atom2graph time : 0.0014200210571289062 s.
+FIRE:   50 16:13:50     -208.405151        0.818766
+matscipy ver
+atom2graph time : 0.0014219284057617188 s.
+FIRE:   51 16:13:50     -208.497925        1.209264
+matscipy ver
+atom2graph time : 0.0012462139129638672 s.
+FIRE:   52 16:13:50     -208.609894        1.143668
+matscipy ver
+atom2graph time : 0.0012416839599609375 s.
+FIRE:   53 16:13:50     -208.740448        0.566248
+matscipy ver
+atom2graph time : 0.0014073848724365234 s.
+FIRE:   54 16:13:50     -208.841354        0.382885
+matscipy ver
+atom2graph time : 0.0014209747314453125 s.
+FIRE:   55 16:13:50     -208.906311        0.629993
+matscipy ver
+atom2graph time : 0.0012502670288085938 s.
+FIRE:   56 16:13:50     -208.962372        0.813851
+matscipy ver
+atom2graph time : 0.0014064311981201172 s.
+FIRE:   57 16:13:50     -209.028107        0.792022
+matscipy ver
+atom2graph time : 0.0014057159423828125 s.
+FIRE:   58 16:13:50     -209.106628        0.666807
+matscipy ver
+atom2graph time : 0.0013995170593261719 s.
+FIRE:   59 16:13:50     -209.172546        0.520025
+matscipy ver
+atom2graph time : 0.0013980865478515625 s.
+FIRE:   60 16:13:50     -209.204285        0.865112
+matscipy ver
+atom2graph time : 0.0011861324310302734 s.
+FIRE:   61 16:13:50     -209.237503        0.957128
+matscipy ver
+atom2graph time : 0.0012340545654296875 s.
+FIRE:   62 16:13:50     -209.292999        0.752714
+matscipy ver
+atom2graph time : 0.0012392997741699219 s.
+FIRE:   63 16:13:50     -209.341644        0.435622
+matscipy ver
+atom2graph time : 0.0013887882232666016 s.
+FIRE:   64 16:13:50     -209.367981        0.605623
+matscipy ver
+atom2graph time : 0.00115966796875 s.
+FIRE:   65 16:13:50     -209.399826        0.623327
+matscipy ver
+atom2graph time : 0.0013992786407470703 s.
+FIRE:   66 16:13:50     -209.457947        0.552069
+matscipy ver
+atom2graph time : 0.001390218734741211 s.
+FIRE:   67 16:13:50     -209.510544        0.347966
+matscipy ver
+atom2graph time : 0.0013895034790039062 s.
+FIRE:   68 16:13:50     -209.536407        0.651927
+matscipy ver
+atom2graph time : 0.0013895034790039062 s.
+FIRE:   69 16:13:51     -209.576569        0.763340
+matscipy ver
+atom2graph time : 0.0012373924255371094 s.
+FIRE:   70 16:13:51     -209.639862        0.503537
+matscipy ver
+atom2graph time : 0.0013909339904785156 s.
+FIRE:   71 16:13:51     -209.686142        0.342371
+matscipy ver
+atom2graph time : 0.0013878345489501953 s.
+FIRE:   72 16:13:51     -209.710175        0.575706
+matscipy ver
+atom2graph time : 0.0014128684997558594 s.
+FIRE:   73 16:13:51     -209.736465        0.670135
+matscipy ver
+atom2graph time : 0.0013947486877441406 s.
+FIRE:   74 16:13:51     -209.775879        0.522475
+matscipy ver
+atom2graph time : 0.0013911724090576172 s.
+FIRE:   75 16:13:51     -209.810852        0.209606
+matscipy ver
+atom2graph time : 0.0014028549194335938 s.
+FIRE:   76 16:13:51     -209.818497        0.636698
+matscipy ver
+atom2graph time : 0.0013890266418457031 s.
+FIRE:   77 16:13:51     -209.683029        2.372778
+matscipy ver
+atom2graph time : 0.001383066177368164 s.
+FIRE:   78 16:13:51     -209.713348        1.919903
+matscipy ver
+atom2graph time : 0.0012269020080566406 s.
+FIRE:   79 16:13:51     -209.840759        1.124207
+matscipy ver
+atom2graph time : 0.0012369155883789062 s.
+FIRE:   80 16:13:51     -209.886993        0.639568
+matscipy ver
+atom2graph time : 0.0012319087982177734 s.
+FIRE:   81 16:13:51     -209.890808        0.547801
+matscipy ver
+atom2graph time : 0.0014357566833496094 s.
+FIRE:   82 16:13:51     -209.896484        0.381876
+matscipy ver
+atom2graph time : 0.0013709068298339844 s.
+FIRE:   83 16:13:51     -209.901398        0.174921
+matscipy ver
+atom2graph time : 0.0011820793151855469 s.
+FIRE:   84 16:13:51     -209.903900        0.108160
+matscipy ver
+atom2graph time : 0.0013728141784667969 s.
+FIRE:   85 16:13:51     -209.904602        0.231599
+matscipy ver
+atom2graph time : 0.0013890266418457031 s.
+FIRE:   86 16:13:51     -209.904877        0.223061
+matscipy ver
+atom2graph time : 0.001386880874633789 s.
+FIRE:   87 16:13:51     -209.905396        0.206309
+matscipy ver
+atom2graph time : 0.0013856887817382812 s.
+FIRE:   88 16:13:51     -209.906128        0.182054
+matscipy ver
+atom2graph time : 0.0013852119445800781 s.
+FIRE:   89 16:13:51     -209.907013        0.151459
+matscipy ver
+atom2graph time : 0.0012347698211669922 s.
+FIRE:   90 16:13:51     -209.907990        0.116368
+matscipy ver
+atom2graph time : 0.0013628005981445312 s.
+FIRE:   91 16:13:51     -209.908981        0.100699
+matscipy ver
+atom2graph time : 0.0012242794036865234 s.
+FIRE:   92 16:13:51     -209.909973        0.100695
+matscipy ver
+atom2graph time : 0.001435995101928711 s.
+FIRE:   93 16:13:51     -209.911057        0.100684
+matscipy ver
+atom2graph time : 0.0012254714965820312 s.
+FIRE:   94 16:13:52     -209.912231        0.100705
+matscipy ver
+atom2graph time : 0.001222848892211914 s.
+FIRE:   95 16:13:52     -209.913620        0.113228
+matscipy ver
+atom2graph time : 0.0012235641479492188 s.
+FIRE:   96 16:13:52     -209.915344        0.136424
+matscipy ver
+atom2graph time : 0.0012288093566894531 s.
+FIRE:   97 16:13:52     -209.917603        0.141220
+matscipy ver
+atom2graph time : 0.001230001449584961 s.
+FIRE:   98 16:13:52     -209.920517        0.122455
+matscipy ver
+atom2graph time : 0.0013916492462158203 s.
+FIRE:   99 16:13:52     -209.924088        0.103483
+matscipy ver
+atom2graph time : 0.001402139663696289 s.
+FIRE:  100 16:13:52     -209.928177        0.103788
+matscipy ver
+atom2graph time : 0.001226663589477539 s.
+FIRE:  101 16:13:52     -209.932724        0.104325
+matscipy ver
+atom2graph time : 0.0013811588287353516 s.
+FIRE:  102 16:13:52     -209.938049        0.105334
+matscipy ver
+atom2graph time : 0.0012204647064208984 s.
+FIRE:  103 16:13:52     -209.944550        0.106942
+matscipy ver
+atom2graph time : 0.001401662826538086 s.
+FIRE:  104 16:13:52     -209.952148        0.109094
+matscipy ver
+atom2graph time : 0.0012247562408447266 s.
+FIRE:  105 16:13:52     -209.960541        0.111376
+matscipy ver
+atom2graph time : 0.0014331340789794922 s.
+FIRE:  106 16:13:52     -209.970169        0.113009
+matscipy ver
+atom2graph time : 0.0013849735260009766 s.
+FIRE:  107 16:13:52     -209.981445        0.113483
+matscipy ver
+atom2graph time : 0.001382589340209961 s.
+FIRE:  108 16:13:52     -209.993835        0.112997
+matscipy ver
+atom2graph time : 0.001382589340209961 s.
+FIRE:  109 16:13:52     -210.008179        0.111430
+matscipy ver
+atom2graph time : 0.0013842582702636719 s.
+FIRE:  110 16:13:52     -210.023926        0.106253
+matscipy ver
+atom2graph time : 0.0013799667358398438 s.
+FIRE:  111 16:13:52     -210.041595        0.093354
+matscipy ver
+atom2graph time : 0.001233816146850586 s.
+FIRE:  112 16:13:52     -210.059875        0.080741
+matscipy ver
+atom2graph time : 0.0014338493347167969 s.
+FIRE:  113 16:13:52     -210.077423        0.115489
+matscipy ver
+atom2graph time : 0.0013980865478515625 s.
+FIRE:  114 16:13:52     -210.092224        0.135478
+matscipy ver
+atom2graph time : 0.0012199878692626953 s.
+FIRE:  115 16:13:52     -210.104019        0.186966
+matscipy ver
+atom2graph time : 0.0014507770538330078 s.
+FIRE:  116 16:13:52     -210.115601        0.369052
+matscipy ver
+atom2graph time : 0.0012214183807373047 s.
+FIRE:  117 16:13:52     -210.122787        0.175619
+matscipy ver
+atom2graph time : 0.0014412403106689453 s.
+FIRE:  118 16:13:52     -210.123810        0.314621
+matscipy ver
+atom2graph time : 0.0013954639434814453 s.
+FIRE:  119 16:13:52     -210.125549        0.238190
+matscipy ver
+atom2graph time : 0.001384735107421875 s.
+FIRE:  120 16:13:53     -210.127838        0.143159
+matscipy ver
+atom2graph time : 0.0013861656188964844 s.
+FIRE:  121 16:13:53     -210.129440        0.136703
+matscipy ver
+atom2graph time : 0.001384735107421875 s.
+FIRE:  122 16:13:53     -210.130310        0.154869
+matscipy ver
+atom2graph time : 0.001176595687866211 s.
+FIRE:  123 16:13:53     -210.131470        0.202907
+matscipy ver
+atom2graph time : 0.001375436782836914 s.
+FIRE:  124 16:13:53     -210.133606        0.188021
+matscipy ver
+atom2graph time : 0.0013871192932128906 s.
+FIRE:  125 16:13:53     -210.136475        0.122752
+matscipy ver
+atom2graph time : 0.0013871192932128906 s.
+FIRE:  126 16:13:53     -210.139496        0.083547
+matscipy ver
+atom2graph time : 0.0013909339904785156 s.
+FIRE:  127 16:13:53     -210.141998        0.126936
+matscipy ver
+atom2graph time : 0.0013911724090576172 s.
+FIRE:  128 16:13:53     -210.144867        0.162360
+matscipy ver
+atom2graph time : 0.0013885498046875 s.
+FIRE:  129 16:13:53     -210.149139        0.108611
+matscipy ver
+atom2graph time : 0.001384735107421875 s.
+FIRE:  130 16:13:53     -210.153687        0.091598
+matscipy ver
+atom2graph time : 0.0013980865478515625 s.
+FIRE:  131 16:13:53     -210.158310        0.121647
+matscipy ver
+atom2graph time : 0.0012195110321044922 s.
+FIRE:  132 16:13:53     -210.164780        0.104479
+matscipy ver
+atom2graph time : 0.0013842582702636719 s.
+FIRE:  133 16:13:53     -210.172134        0.110674
+matscipy ver
+atom2graph time : 0.0013937950134277344 s.
+FIRE:  134 16:13:53     -210.181595        0.119621
+matscipy ver
+atom2graph time : 0.0014069080352783203 s.
+FIRE:  135 16:13:53     -210.193787        0.132116
+matscipy ver
+atom2graph time : 0.0013897418975830078 s.
+FIRE:  136 16:13:53     -210.210159        0.142511
+matscipy ver
+atom2graph time : 0.0013890266418457031 s.
+FIRE:  137 16:13:53     -210.230652        0.183152
+matscipy ver
+atom2graph time : 0.0013835430145263672 s.
+FIRE:  138 16:13:53     -210.256912        0.254599
+matscipy ver
+atom2graph time : 0.0013818740844726562 s.
+FIRE:  139 16:13:53     -210.286621        0.476960
+matscipy ver
+atom2graph time : 0.0013768672943115234 s.
+FIRE:  140 16:13:53     -210.290543        1.220324
+matscipy ver
+atom2graph time : 0.0012369155883789062 s.
+FIRE:  141 16:13:53     -210.328537        0.092548
+matscipy ver
+atom2graph time : 0.001438140869140625 s.
+FIRE:  142 16:13:53     -210.298019        1.371750
+matscipy ver
+atom2graph time : 0.0013878345489501953 s.
+FIRE:  143 16:13:53     -210.316727        0.898470
+matscipy ver
+atom2graph time : 0.0013849735260009766 s.
+FIRE:  144 16:13:53     -210.332291        0.203569
+matscipy ver
+atom2graph time : 0.001180410385131836 s.
+FIRE:  145 16:13:54     -210.330429        0.451072
+matscipy ver
+atom2graph time : 0.0012280941009521484 s.
+FIRE:  146 16:13:54     -210.331024        0.423545
+matscipy ver
+atom2graph time : 0.0014383792877197266 s.
+FIRE:  147 16:13:54     -210.332123        0.369887
+matscipy ver
+atom2graph time : 0.0013916492462158203 s.
+FIRE:  148 16:13:54     -210.333450        0.292952
+matscipy ver
+atom2graph time : 0.00122833251953125 s.
+FIRE:  149 16:13:54     -210.334763        0.197330
+matscipy ver
+atom2graph time : 0.0014102458953857422 s.
+FIRE:  150 16:13:54     -210.335800        0.090667
+matscipy ver
+atom2graph time : 0.0013859272003173828 s.
+FIRE:  151 16:13:54     -210.336472        0.083701
+matscipy ver
+atom2graph time : 0.0013852119445800781 s.
+FIRE:  152 16:13:54     -210.336853        0.120244
+matscipy ver
+atom2graph time : 0.001218557357788086 s.
+FIRE:  153 16:13:54     -210.337189        0.195649
+matscipy ver
+atom2graph time : 0.00116729736328125 s.
+FIRE:  154 16:13:54     -210.337845        0.237912
+matscipy ver
+atom2graph time : 0.0013709068298339844 s.
+FIRE:  155 16:13:54     -210.339111        0.234463
+matscipy ver
+atom2graph time : 0.0013856887817382812 s.
+FIRE:  156 16:13:54     -210.341034        0.178038
+matscipy ver
+atom2graph time : 0.0013892650604248047 s.
+FIRE:  157 16:13:54     -210.343384        0.097336
+matscipy ver
+atom2graph time : 0.0013821125030517578 s.
+FIRE:  158 16:13:54     -210.345612        0.079740
+matscipy ver
+atom2graph time : 0.0013885498046875 s.
+FIRE:  159 16:13:54     -210.347809        0.172421
+matscipy ver
+atom2graph time : 0.0013952255249023438 s.
+FIRE:  160 16:13:54     -210.350784        0.198019
+matscipy ver
+atom2graph time : 0.0013844966888427734 s.
+FIRE:  161 16:13:54     -210.355011        0.122020
+matscipy ver
+atom2graph time : 0.0013816356658935547 s.
+FIRE:  162 16:13:54     -210.359756        0.074753
+matscipy ver
+atom2graph time : 0.0012195110321044922 s.
+FIRE:  163 16:13:54     -210.364761        0.156642
+matscipy ver
+atom2graph time : 0.001176595687866211 s.
+FIRE:  164 16:13:54     -210.371475        0.111654
+matscipy ver
+atom2graph time : 0.00116729736328125 s.
+FIRE:  165 16:13:54     -210.379227        0.104645
+matscipy ver
+atom2graph time : 0.0011751651763916016 s.
+FIRE:  166 16:13:54     -210.387985        0.146529
+matscipy ver
+atom2graph time : 0.0012478828430175781 s.
+FIRE:  167 16:13:54     -210.398651        0.083549
+matscipy ver
+atom2graph time : 0.0013887882232666016 s.
+FIRE:  168 16:13:54     -210.410431        0.115229
+matscipy ver
+atom2graph time : 0.0013911724090576172 s.
+FIRE:  169 16:13:54     -210.423538        0.159595
+matscipy ver
+atom2graph time : 0.001401662826538086 s.
+FIRE:  170 16:13:54     -210.438034        0.081076
+matscipy ver
+atom2graph time : 0.0013842582702636719 s.
+FIRE:  171 16:13:55     -210.453140        0.075116
+matscipy ver
+atom2graph time : 0.0013964176177978516 s.
+FIRE:  172 16:13:55     -210.468582        0.130022
+matscipy ver
+atom2graph time : 0.0013890266418457031 s.
+FIRE:  173 16:13:55     -210.481827        0.333127
+matscipy ver
+atom2graph time : 0.0013806819915771484 s.
+FIRE:  174 16:13:55     -210.476532        0.753357
+matscipy ver
+atom2graph time : 0.001168966293334961 s.
+FIRE:  175 16:13:55     -210.504303        0.108173
+matscipy ver
+atom2graph time : 0.001374959945678711 s.
+FIRE:  176 16:13:55     -210.483917        0.820935
+matscipy ver
+atom2graph time : 0.0013909339904785156 s.
+FIRE:  177 16:13:55     -210.494812        0.582976
+matscipy ver
+atom2graph time : 0.001390218734741211 s.
+FIRE:  178 16:13:55     -210.505707        0.206963
+matscipy ver
+atom2graph time : 0.0012233257293701172 s.
+FIRE:  179 16:13:55     -210.506622        0.193206
+matscipy ver
+atom2graph time : 0.0012192726135253906 s.
+FIRE:  180 16:13:55     -210.506836        0.184586
+matscipy ver
+atom2graph time : 0.0012259483337402344 s.
+FIRE:  181 16:13:55     -210.507263        0.168072
+matscipy ver
+atom2graph time : 0.0011768341064453125 s.
+FIRE:  182 16:13:55     -210.507782        0.145211
+matscipy ver
+atom2graph time : 0.0012311935424804688 s.
+FIRE:  183 16:13:55     -210.508331        0.118863
+matscipy ver
+atom2graph time : 0.0015482902526855469 s.
+FIRE:  184 16:13:55     -210.508835        0.094184
+matscipy ver
+atom2graph time : 0.0012333393096923828 s.
+FIRE:  185 16:13:55     -210.509186        0.079394
+matscipy ver
+atom2graph time : 0.0012187957763671875 s.
+FIRE:  186 16:13:55     -210.509521        0.079909
+matscipy ver
+atom2graph time : 0.0012292861938476562 s.
+FIRE:  187 16:13:55     -210.509857        0.107623
+matscipy ver
+atom2graph time : 0.0012516975402832031 s.
+FIRE:  188 16:13:55     -210.510315        0.128767
+matscipy ver
+atom2graph time : 0.001249551773071289 s.
+FIRE:  189 16:13:55     -210.511047        0.130659
+matscipy ver
+atom2graph time : 0.0012423992156982422 s.
+FIRE:  190 16:13:55     -210.512085        0.109591
+matscipy ver
+atom2graph time : 0.0012459754943847656 s.
+FIRE:  191 16:13:55     -210.513336        0.080327
+matscipy ver
+atom2graph time : 0.0012307167053222656 s.
+FIRE:  192 16:13:55     -210.514709        0.083743
+matscipy ver
+atom2graph time : 0.001232147216796875 s.
+FIRE:  193 16:13:55     -210.516174        0.105129
+matscipy ver
+atom2graph time : 0.0012254714965820312 s.
+FIRE:  194 16:13:55     -210.518051        0.117119
+matscipy ver
+atom2graph time : 0.0012242794036865234 s.
+FIRE:  195 16:13:56     -210.520523        0.104513
+matscipy ver
+atom2graph time : 0.0013985633850097656 s.
+FIRE:  196 16:13:56     -210.523453        0.083620
+matscipy ver
+atom2graph time : 0.0013890266418457031 s.
+FIRE:  197 16:13:56     -210.526718        0.094459
+matscipy ver
+atom2graph time : 0.001219034194946289 s.
+FIRE:  198 16:13:56     -210.530945        0.087378
+matscipy ver
+atom2graph time : 0.0012235641479492188 s.
+FIRE:  199 16:13:56     -210.536011        0.095389
+matscipy ver
+atom2graph time : 0.0011725425720214844 s.
+FIRE:  200 16:13:56     -210.542053        0.111859
+matscipy ver
+atom2graph time : 0.0013918876647949219 s.
+FIRE:  201 16:13:56     -210.549622        0.089327
+matscipy ver
+atom2graph time : 0.001394033432006836 s.
+FIRE:  202 16:13:56     -210.558563        0.087927
+matscipy ver
+atom2graph time : 0.001398324966430664 s.
+FIRE:  203 16:13:56     -210.569351        0.096371
+matscipy ver
+atom2graph time : 0.0012285709381103516 s.
+FIRE:  204 16:13:56     -210.581985        0.071861
+matscipy ver
+atom2graph time : 0.0014507770538330078 s.
+FIRE:  205 16:13:56     -210.596283        0.091006
+matscipy ver
+atom2graph time : 0.0013880729675292969 s.
+FIRE:  206 16:13:56     -210.610962        0.085785
+matscipy ver
+atom2graph time : 0.0013959407806396484 s.
+FIRE:  207 16:13:56     -210.622070        0.235729
+matscipy ver
+atom2graph time : 0.0013928413391113281 s.
+FIRE:  208 16:13:56     -210.620514        0.531248
+matscipy ver
+atom2graph time : 0.0011789798736572266 s.
+FIRE:  209 16:13:56     -210.636444        0.157251
+matscipy ver
+atom2graph time : 0.0012133121490478516 s.
+FIRE:  210 16:13:56     -210.627884        0.464286
+matscipy ver
+atom2graph time : 0.0012280941009521484 s.
+FIRE:  211 16:13:56     -210.633163        0.345556
+matscipy ver
+atom2graph time : 0.0011796951293945312 s.
+FIRE:  212 16:13:56     -210.639038        0.149316
+matscipy ver
+atom2graph time : 0.0013735294342041016 s.
+FIRE:  213 16:13:56     -210.640549        0.123026
+matscipy ver
+atom2graph time : 0.0013897418975830078 s.
+FIRE:  214 16:13:56     -210.640656        0.122670
+matscipy ver
+atom2graph time : 0.0014002323150634766 s.
+FIRE:  215 16:13:56     -210.640854        0.121962
+matscipy ver
+atom2graph time : 0.0013933181762695312 s.
+FIRE:  216 16:13:56     -210.641144        0.120903
+matscipy ver
+atom2graph time : 0.0012249946594238281 s.
+FIRE:  217 16:13:56     -210.641449        0.119495
+matscipy ver
+atom2graph time : 0.0014445781707763672 s.
+FIRE:  218 16:13:56     -210.641785        0.117738
+matscipy ver
+atom2graph time : 0.001390695571899414 s.
+FIRE:  219 16:13:56     -210.642136        0.115637
+matscipy ver
+atom2graph time : 0.0013937950134277344 s.
+FIRE:  220 16:13:57     -210.642487        0.113212
+matscipy ver
+atom2graph time : 0.0013997554779052734 s.
+FIRE:  221 16:13:57     -210.642929        0.110195
+matscipy ver
+atom2graph time : 0.0013935565948486328 s.
+FIRE:  222 16:13:57     -210.643463        0.106521
+matscipy ver
+atom2graph time : 0.0013933181762695312 s.
+FIRE:  223 16:13:57     -210.644135        0.102127
+matscipy ver
+atom2graph time : 0.0012412071228027344 s.
+FIRE:  224 16:13:57     -210.644989        0.096953
+matscipy ver
+atom2graph time : 0.0011720657348632812 s.
+FIRE:  225 16:13:57     -210.646027        0.090949
+matscipy ver
+atom2graph time : 0.0015082359313964844 s.
+FIRE:  226 16:13:57     -210.647156        0.084090
+matscipy ver
+atom2graph time : 0.001430511474609375 s.
+FIRE:  227 16:13:57     -210.648468        0.076454
+matscipy ver
+atom2graph time : 0.0014050006866455078 s.
+FIRE:  228 16:13:57     -210.649979        0.068247
+matscipy ver
+atom2graph time : 0.0012412071228027344 s.
+FIRE:  229 16:13:57     -210.651764        0.059753
+matscipy ver
+atom2graph time : 0.0012538433074951172 s.
+FIRE:  230 16:13:57     -210.653809        0.051921
+matscipy ver
+atom2graph time : 0.001245737075805664 s.
+FIRE:  231 16:13:57     -210.656113        0.051949
+matscipy ver
+atom2graph time : 0.0014157295227050781 s.
+FIRE:  232 16:13:57     -210.658829        0.051767
+matscipy ver
+atom2graph time : 0.0013780593872070312 s.
+FIRE:  233 16:13:57     -210.661957        0.051322
+matscipy ver
+atom2graph time : 0.0011813640594482422 s.
+FIRE:  234 16:13:57     -210.665680        0.050954
+matscipy ver
+atom2graph time : 0.0013921260833740234 s.
+FIRE:  235 16:13:57     -210.670105        0.051003
+matscipy ver
+atom2graph time : 0.001390695571899414 s.
+FIRE:  236 16:13:57     -210.675461        0.051014
+matscipy ver
+atom2graph time : 0.001386880874633789 s.
+FIRE:  237 16:13:57     -210.681946        0.053147
+matscipy ver
+atom2graph time : 0.0013885498046875 s.
+FIRE:  238 16:13:57     -210.689774        0.050316
+matscipy ver
+atom2graph time : 0.0012235641479492188 s.
+FIRE:  239 16:13:57     -210.698975        0.072348
+matscipy ver
+atom2graph time : 0.0011827945709228516 s.
+FIRE:  240 16:13:57     -210.709122        0.168848
+matscipy ver
+atom2graph time : 0.001178741455078125 s.
+FIRE:  241 16:13:57     -210.716644        0.461529
+matscipy ver
+atom2graph time : 0.0012204647064208984 s.
+FIRE:  242 16:13:57     -210.721405        0.049508
+matscipy ver
+atom2graph time : 0.0011904239654541016 s.
+FIRE:  243 16:13:57     -210.718704        0.412717
+matscipy ver
+atom2graph time : 0.0012593269348144531 s.
+FIRE:  244 16:13:57     -210.720230        0.310936
+matscipy ver
+atom2graph time : 0.0012171268463134766 s.
+FIRE:  245 16:13:58     -210.721939        0.135885
+matscipy ver
+atom2graph time : 0.001224517822265625 s.
+FIRE:  246 16:13:58     -210.722473        0.066953
+matscipy ver
+atom2graph time : 0.0011584758758544922 s.
+FIRE:  247 16:13:58     -210.722504        0.063156
+matscipy ver
+atom2graph time : 0.001390695571899414 s.
+FIRE:  248 16:13:58     -210.722565        0.055850
+matscipy ver
+atom2graph time : 0.001392364501953125 s.
+FIRE:  249 16:13:58     -210.722641        0.049433
+matscipy ver
+atom2graph time : 0.0014081001281738281 s.
+FIRE:  250 16:13:58     -210.722733        0.049395
+matscipy ver
+atom2graph time : 0.0013892650604248047 s.
+FIRE:  251 16:13:58     -210.722824        0.049354
+matscipy ver
+atom2graph time : 0.0013790130615234375 s.
+FIRE:  252 16:13:58     -210.722946        0.049312
+matscipy ver
+atom2graph time : 0.0013880729675292969 s.
+FIRE:  253 16:13:58     -210.723068        0.049273
+matscipy ver
+atom2graph time : 0.0013926029205322266 s.
+FIRE:  254 16:13:58     -210.723206        0.049238
+matscipy ver
+atom2graph time : 0.0013928413391113281 s.
+FIRE:  255 16:13:58     -210.723389        0.049211
+matscipy ver
+atom2graph time : 0.0013926029205322266 s.
+FIRE:  256 16:13:58     -210.723633        0.049197
+matscipy ver
+atom2graph time : 0.0012392997741699219 s.
+FIRE:  257 16:13:58     -210.723938        0.049199
+matscipy ver
+atom2graph time : 0.0013949871063232422 s.
+FIRE:  258 16:13:58     -210.724319        0.049216
+matscipy ver
+atom2graph time : 0.0014047622680664062 s.
+FIRE:  259 16:13:58     -210.724777        0.049240
+matscipy ver
+atom2graph time : 0.0014002323150634766 s.
+FIRE:  260 16:13:58     -210.725342        0.049251
+matscipy ver
+atom2graph time : 0.0013995170593261719 s.
+FIRE:  261 16:13:58     -210.726013        0.049225
+matscipy ver
+atom2graph time : 0.00139617919921875 s.
+FIRE:  262 16:13:58     -210.726837        0.049138
+matscipy ver
+atom2graph time : 0.0014195442199707031 s.
+FIRE:  263 16:13:58     -210.727859        0.049004
+matscipy ver
+atom2graph time : 0.001397848129272461 s.
+FIRE:  264 16:13:58     -210.729050        0.048867
+matscipy ver
+atom2graph time : 0.0013992786407470703 s.
+FIRE:  265 16:13:58     -210.730515        0.048780
+matscipy ver
+atom2graph time : 0.0014028549194335938 s.
+FIRE:  266 16:13:58     -210.732239        0.048739
+matscipy ver
+atom2graph time : 0.00142669677734375 s.
+FIRE:  267 16:13:58     -210.734329        0.048633
+matscipy ver
+atom2graph time : 0.0014045238494873047 s.
+FIRE:  268 16:13:58     -210.736801        0.048381
+matscipy ver
+atom2graph time : 0.0014011859893798828 s.
+FIRE:  269 16:13:58     -210.739716        0.048150
+matscipy ver
+atom2graph time : 0.0014007091522216797 s.
+FIRE:  270 16:13:58     -210.743179        0.048041
+matscipy ver
+atom2graph time : 0.0012340545654296875 s.
+FIRE:  271 16:13:59     -210.747192        0.047681
+matscipy ver
+atom2graph time : 0.0014019012451171875 s.
+FIRE:  272 16:13:59     -210.751785        0.047413
+matscipy ver
+atom2graph time : 0.0014019012451171875 s.
+FIRE:  273 16:13:59     -210.757050        0.047019
+matscipy ver
+atom2graph time : 0.001399993896484375 s.
+FIRE:  274 16:13:59     -210.762726        0.112535
+matscipy ver
+atom2graph time : 0.0014026165008544922 s.
+FIRE:  275 16:13:59     -210.766617        0.364807
+matscipy ver
+atom2graph time : 0.0014350414276123047 s.
+FIRE:  276 16:13:59     -210.769562        0.045532
+matscipy ver
+atom2graph time : 0.0014057159423828125 s.
+FIRE:  277 16:13:59     -210.767700        0.336112
+matscipy ver
+atom2graph time : 0.0014002323150634766 s.
+FIRE:  278 16:13:59     -210.768738        0.250667
+matscipy ver
+atom2graph time : 0.0014030933380126953 s.
+FIRE:  279 16:13:59     -210.769852        0.104012
+matscipy ver
+atom2graph time : 0.0014309883117675781 s.
+FIRE:  280 16:13:59     -210.770111        0.064135
+matscipy ver
+atom2graph time : 0.001407623291015625 s.
+FIRE:  281 16:13:59     -210.770142        0.060251
+matscipy ver
+atom2graph time : 0.0012230873107910156 s.
+FIRE:  282 16:13:59     -210.770157        0.052733
+matscipy ver
+atom2graph time : 0.0012311935424804688 s.
+FIRE:  283 16:13:59     -210.770203        0.045398
+matscipy ver
+atom2graph time : 0.0012333393096923828 s.
+FIRE:  284 16:13:59     -210.770279        0.045374
+matscipy ver
+atom2graph time : 0.0016131401062011719 s.
+FIRE:  285 16:13:59     -210.770340        0.045346
+matscipy ver
+atom2graph time : 0.0013995170593261719 s.
+FIRE:  286 16:13:59     -210.770401        0.045317
+matscipy ver
+atom2graph time : 0.0014011859893798828 s.
+FIRE:  287 16:13:59     -210.770477        0.045287
+matscipy ver
+atom2graph time : 0.0013988018035888672 s.
+FIRE:  288 16:13:59     -210.770538        0.045256
+matscipy ver
+atom2graph time : 0.0014028549194335938 s.
+FIRE:  289 16:13:59     -210.770645        0.045225
+matscipy ver
+atom2graph time : 0.001226663589477539 s.
+FIRE:  290 16:13:59     -210.770782        0.045196
+matscipy ver
+atom2graph time : 0.001171112060546875 s.
+FIRE:  291 16:13:59     -210.770950        0.045169
+matscipy ver
+atom2graph time : 0.0011742115020751953 s.
+FIRE:  292 16:13:59     -210.771179        0.045141
+matscipy ver
+atom2graph time : 0.0012249946594238281 s.
+FIRE:  293 16:13:59     -210.771423        0.045106
+matscipy ver
+atom2graph time : 0.0011792182922363281 s.
+FIRE:  294 16:13:59     -210.771759        0.045053
+matscipy ver
+atom2graph time : 0.001230001449584961 s.
+FIRE:  295 16:13:59     -210.772125        0.044970
+matscipy ver
+atom2graph time : 0.001169443130493164 s.
+FIRE:  296 16:13:59     -210.772614        0.044848
+matscipy ver
+atom2graph time : 0.0011775493621826172 s.
+FIRE:  297 16:14:00     -210.773193        0.044691
+matscipy ver
+atom2graph time : 0.0012707710266113281 s.
+FIRE:  298 16:14:00     -210.773865        0.044520
+matscipy ver
+atom2graph time : 0.0012214183807373047 s.
+FIRE:  299 16:14:00     -210.774734        0.044358
+matscipy ver
+atom2graph time : 0.0012214183807373047 s.
+FIRE:  300 16:14:00     -210.775757        0.044193
+matscipy ver
+atom2graph time : 0.0011844635009765625 s.
+FIRE:  301 16:14:00     -210.777008        0.043968
+matscipy ver
+atom2graph time : 0.001188516616821289 s.
+FIRE:  302 16:14:00     -210.778534        0.043653
+matscipy ver
+atom2graph time : 0.0013904571533203125 s.
+FIRE:  303 16:14:00     -210.780365        0.043329
+matscipy ver
+atom2graph time : 0.0011775493621826172 s.
+FIRE:  304 16:14:00     -210.782593        0.043017
+matscipy ver
+atom2graph time : 0.001392364501953125 s.
+FIRE:  305 16:14:00     -210.785248        0.042555
+matscipy ver
+atom2graph time : 0.0011546611785888672 s.
+FIRE:  306 16:14:00     -210.788513        0.042155
+matscipy ver
+atom2graph time : 0.0011739730834960938 s.
+FIRE:  307 16:14:00     -210.792419        0.041559
+matscipy ver
+atom2graph time : 0.0011823177337646484 s.
+FIRE:  308 16:14:00     -210.796997        0.088720
+matscipy ver
+atom2graph time : 0.0011713504791259766 s.
+FIRE:  309 16:14:00     -210.800751        0.279435
+matscipy ver
+atom2graph time : 0.0011713504791259766 s.
+FIRE:  310 16:14:00     -210.788879        0.925286
+matscipy ver
+atom2graph time : 0.001230001449584961 s.
+FIRE:  311 16:14:00     -210.808105        0.242693
+matscipy ver
+atom2graph time : 0.0013971328735351562 s.
+FIRE:  312 16:14:00     -210.808914        0.171792
+matscipy ver
+atom2graph time : 0.0013935565948486328 s.
+FIRE:  313 16:14:00     -210.809708        0.049679
+matscipy ver
+atom2graph time : 0.001394033432006836 s.
+FIRE:  314 16:14:00     -210.809769        0.086960
+matscipy ver
+atom2graph time : 0.0011718273162841797 s.
+FIRE:  315 16:14:00     -210.809814        0.080362
+matscipy ver
+atom2graph time : 0.0011751651763916016 s.
+FIRE:  316 16:14:00     -210.809875        0.067697
+matscipy ver
+atom2graph time : 0.0011820793151855469 s.
+FIRE:  317 16:14:00     -210.809967        0.050037
+matscipy ver
+atom2graph time : 0.0013935565948486328 s.
+FIRE:  318 16:14:00     -210.810043        0.043410
+matscipy ver
+atom2graph time : 0.0013947486877441406 s.
+FIRE:  319 16:14:00     -210.810135        0.043481
+matscipy ver
+atom2graph time : 0.0013916492462158203 s.
+FIRE:  320 16:14:00     -210.810211        0.043564
+matscipy ver
+atom2graph time : 0.0014297962188720703 s.
+FIRE:  321 16:14:00     -210.810287        0.043654
+matscipy ver
+atom2graph time : 0.0014147758483886719 s.
+FIRE:  322 16:14:01     -210.810379        0.043760
+matscipy ver
+atom2graph time : 0.0011696815490722656 s.
+FIRE:  323 16:14:01     -210.810501        0.046990
+matscipy ver
+atom2graph time : 0.0013937950134277344 s.
+FIRE:  324 16:14:01     -210.810699        0.044020
+matscipy ver
+atom2graph time : 0.0011734962463378906 s.
+FIRE:  325 16:14:01     -210.810944        0.044180
+matscipy ver
+atom2graph time : 0.0011763572692871094 s.
+FIRE:  326 16:14:01     -210.811234        0.044370
+matscipy ver
+atom2graph time : 0.0013957023620605469 s.
+FIRE:  327 16:14:01     -210.811554        0.044605
+matscipy ver
+atom2graph time : 0.0013916492462158203 s.
+FIRE:  328 16:14:01     -210.811966        0.044902
+matscipy ver
+atom2graph time : 0.0013439655303955078 s.
+FIRE:  329 16:14:01     -210.812485        0.045279
+matscipy ver
+atom2graph time : 0.0011830329895019531 s.
+FIRE:  330 16:14:01     -210.813126        0.045755
+matscipy ver
+atom2graph time : 0.0011789798736572266 s.
+FIRE:  331 16:14:01     -210.813904        0.046344
+matscipy ver
+atom2graph time : 0.0011816024780273438 s.
+FIRE:  332 16:14:01     -210.814850        0.047054
+matscipy ver
+atom2graph time : 0.0011758804321289062 s.
+FIRE:  333 16:14:01     -210.816040        0.047922
+matscipy ver
+atom2graph time : 0.0012216567993164062 s.
+FIRE:  334 16:14:01     -210.817505        0.049061
+matscipy ver
+atom2graph time : 0.0014495849609375 s.
+FIRE:  335 16:14:01     -210.819366        0.051821
+matscipy ver
+atom2graph time : 0.0014066696166992188 s.
+FIRE:  336 16:14:01     -210.821655        0.055907
+matscipy ver
+atom2graph time : 0.0013790130615234375 s.
+FIRE:  337 16:14:01     -210.824585        0.059623
+matscipy ver
+atom2graph time : 0.0011754035949707031 s.
+FIRE:  338 16:14:01     -210.828308        0.063253
+matscipy ver
+atom2graph time : 0.0012235641479492188 s.
+FIRE:  339 16:14:01     -210.833008        0.066939
+matscipy ver
+atom2graph time : 0.0014424324035644531 s.
+FIRE:  340 16:14:01     -210.838837        0.076784
+matscipy ver
+atom2graph time : 0.0013973712921142578 s.
+FIRE:  341 16:14:01     -210.845490        0.180047
+matscipy ver
+atom2graph time : 0.001398324966430664 s.
+FIRE:  342 16:14:01     -210.849686        0.481531
+matscipy ver
+atom2graph time : 0.0013947486877441406 s.
+FIRE:  343 16:14:01     -210.855728        0.078654
+matscipy ver
+atom2graph time : 0.001392364501953125 s.
+FIRE:  344 16:14:01     -210.855804        0.078684
+matscipy ver
+atom2graph time : 0.0014019012451171875 s.
+FIRE:  345 16:14:01     -210.855972        0.078751
+matscipy ver
+atom2graph time : 0.0013942718505859375 s.
+FIRE:  346 16:14:01     -210.856216        0.078868
+matscipy ver
+atom2graph time : 0.0013892650604248047 s.
+FIRE:  347 16:14:01     -210.856522        0.079053
+matscipy ver
+atom2graph time : 0.001390695571899414 s.
+FIRE:  348 16:14:02     -210.856918        0.079317
+matscipy ver
+atom2graph time : 0.0014071464538574219 s.
+FIRE:  349 16:14:02     -210.857391        0.079671
+matscipy ver
+atom2graph time : 0.0013933181762695312 s.
+FIRE:  350 16:14:02     -210.857941        0.080117
+matscipy ver
+atom2graph time : 0.0013887882232666016 s.
+FIRE:  351 16:14:02     -210.858643        0.080711
+matscipy ver
+atom2graph time : 0.0013964176177978516 s.
+FIRE:  352 16:14:02     -210.859558        0.081478
+matscipy ver
+atom2graph time : 0.001398324966430664 s.
+FIRE:  353 16:14:02     -210.860687        0.082447
+matscipy ver
+atom2graph time : 0.001397848129272461 s.
+FIRE:  354 16:14:02     -210.862152        0.083666
+matscipy ver
+atom2graph time : 0.0012280941009521484 s.
+FIRE:  355 16:14:02     -210.863953        0.085211
+matscipy ver
+atom2graph time : 0.001458883285522461 s.
+FIRE:  356 16:14:02     -210.866272        0.087177
+matscipy ver
+atom2graph time : 0.001402139663696289 s.
+FIRE:  357 16:14:02     -210.869202        0.089621
+matscipy ver
+atom2graph time : 0.0012238025665283203 s.
+FIRE:  358 16:14:02     -210.872925        0.092265
+matscipy ver
+atom2graph time : 0.0014562606811523438 s.
+FIRE:  359 16:14:02     -210.877655        0.095004
+matscipy ver
+atom2graph time : 0.0012443065643310547 s.
+FIRE:  360 16:14:02     -210.883698        0.098036
+matscipy ver
+atom2graph time : 0.00144195556640625 s.
+FIRE:  361 16:14:02     -210.891373        0.100718
+matscipy ver
+atom2graph time : 0.0014185905456542969 s.
+FIRE:  362 16:14:02     -210.901077        0.102313
+matscipy ver
+atom2graph time : 0.0012240409851074219 s.
+FIRE:  363 16:14:02     -210.913147        0.100639
+matscipy ver
+atom2graph time : 0.0012445449829101562 s.
+FIRE:  364 16:14:02     -210.926880        0.153620
+matscipy ver
+atom2graph time : 0.0013947486877441406 s.
+FIRE:  365 16:14:02     -210.933640        0.564480
+matscipy ver
+atom2graph time : 0.0013959407806396484 s.
+FIRE:  366 16:14:02     -210.942154        0.063322
+matscipy ver
+atom2graph time : 0.001409292221069336 s.
+FIRE:  367 16:14:02     -210.942291        0.062847
+matscipy ver
+atom2graph time : 0.0014083385467529297 s.
+FIRE:  368 16:14:02     -210.942490        0.061933
+matscipy ver
+atom2graph time : 0.0013995170593261719 s.
+FIRE:  369 16:14:02     -210.942780        0.060656
+matscipy ver
+atom2graph time : 0.0014009475708007812 s.
+FIRE:  370 16:14:02     -210.943130        0.059132
+matscipy ver
+atom2graph time : 0.0013985633850097656 s.
+FIRE:  371 16:14:02     -210.943573        0.057503
+matscipy ver
+atom2graph time : 0.0013976097106933594 s.
+FIRE:  372 16:14:02     -210.944092        0.055902
+matscipy ver
+atom2graph time : 0.0013997554779052734 s.
+FIRE:  373 16:14:03     -210.944702        0.054429
+matscipy ver
+atom2graph time : 0.0013995170593261719 s.
+FIRE:  374 16:14:03     -210.945419        0.053010
+matscipy ver
+atom2graph time : 0.0013952255249023438 s.
+FIRE:  375 16:14:03     -210.946289        0.051692
+matscipy ver
+atom2graph time : 0.0013997554779052734 s.
+FIRE:  376 16:14:03     -210.947388        0.050397
+matscipy ver
+atom2graph time : 0.001394510269165039 s.
+FIRE:  377 16:14:03     -210.948639        0.048840
+matscipy ver
+atom2graph time : 0.0013985633850097656 s.
+FIRE:  378 16:14:03     -210.950150        0.046542
+matscipy ver
+atom2graph time : 0.0014202594757080078 s.
+FIRE:  379 16:14:03     -210.951904        0.043017
+matscipy ver
+atom2graph time : 0.0012204647064208984 s.
+FIRE:  380 16:14:03     -210.953949        0.038532
+matscipy ver
+atom2graph time : 0.001453399658203125 s.
+FIRE:  381 16:14:03     -210.956284        0.038481
+matscipy ver
+atom2graph time : 0.0014224052429199219 s.
+FIRE:  382 16:14:03     -210.958862        0.038171
+matscipy ver
+atom2graph time : 0.0014040470123291016 s.
+FIRE:  383 16:14:03     -210.961609        0.037494
+matscipy ver
+atom2graph time : 0.0014007091522216797 s.
+FIRE:  384 16:14:03     -210.964462        0.048368
+matscipy ver
+atom2graph time : 0.0014057159423828125 s.
+FIRE:  385 16:14:03     -210.967209        0.094707
+matscipy ver
+atom2graph time : 0.0014019012451171875 s.
+FIRE:  386 16:14:03     -210.969238        0.182469
+matscipy ver
+atom2graph time : 0.0012607574462890625 s.
+FIRE:  387 16:14:03     -210.970535        0.036517
+matscipy ver
+atom2graph time : 0.0011816024780273438 s.
+FIRE:  388 16:14:03     -210.970093        0.137889
+matscipy ver
+atom2graph time : 0.0011849403381347656 s.
+FIRE:  389 16:14:03     -210.970367        0.110045
+matscipy ver
+atom2graph time : 0.0011947154998779297 s.
+FIRE:  390 16:14:03     -210.970734        0.060268
+matscipy ver
+atom2graph time : 0.0014011859893798828 s.
+FIRE:  391 16:14:03     -210.970932        0.035797
+matscipy ver
+atom2graph time : 0.00139617919921875 s.
+FIRE:  392 16:14:03     -210.970901        0.058291
+matscipy ver
+atom2graph time : 0.0013990402221679688 s.
+FIRE:  393 16:14:03     -210.970932        0.055225
+matscipy ver
+atom2graph time : 0.0014028549194335938 s.
+FIRE:  394 16:14:03     -210.970963        0.049270
+matscipy ver
+atom2graph time : 0.0013988018035888672 s.
+FIRE:  395 16:14:03     -210.971024        0.040752
+matscipy ver
+atom2graph time : 0.0014033317565917969 s.
+FIRE:  396 16:14:03     -210.971054        0.035768
+matscipy ver
+atom2graph time : 0.0013990402221679688 s.
+FIRE:  397 16:14:03     -210.971115        0.035777
+matscipy ver
+atom2graph time : 0.001398324966430664 s.
+FIRE:  398 16:14:03     -210.971161        0.035785
+matscipy ver
+atom2graph time : 0.0012285709381103516 s.
+FIRE:  399 16:14:04     -210.971207        0.035792
+matscipy ver
+atom2graph time : 0.0013985633850097656 s.
+FIRE:  400 16:14:04     -210.971252        0.035796
+matscipy ver
+atom2graph time : 0.001424551010131836 s.
+FIRE:  401 16:14:04     -210.971283        0.035793
+matscipy ver
+atom2graph time : 0.0013988018035888672 s.
+FIRE:  402 16:14:04     -210.971375        0.035781
+matscipy ver
+atom2graph time : 0.0012288093566894531 s.
+FIRE:  403 16:14:04     -210.971451        0.035756
+matscipy ver
+atom2graph time : 0.0013992786407470703 s.
+FIRE:  404 16:14:04     -210.971619        0.035718
+matscipy ver
+atom2graph time : 0.001399993896484375 s.
+FIRE:  405 16:14:04     -210.971756        0.035668
+matscipy ver
+atom2graph time : 0.0013997554779052734 s.
+FIRE:  406 16:14:04     -210.971924        0.035608
+matscipy ver
+atom2graph time : 0.0014004707336425781 s.
+FIRE:  407 16:14:04     -210.972137        0.035545
+matscipy ver
+atom2graph time : 0.0013976097106933594 s.
+FIRE:  408 16:14:04     -210.972382        0.035480
+matscipy ver
+atom2graph time : 0.0013990402221679688 s.
+FIRE:  409 16:14:04     -210.972702        0.035409
+matscipy ver
+atom2graph time : 0.0014061927795410156 s.
+FIRE:  410 16:14:04     -210.973068        0.035318
+matscipy ver
+atom2graph time : 0.0014111995697021484 s.
+FIRE:  411 16:14:04     -210.973511        0.035177
+matscipy ver
+atom2graph time : 0.0013964176177978516 s.
+FIRE:  412 16:14:04     -210.974030        0.034973
+matscipy ver
+atom2graph time : 0.0013990402221679688 s.
+FIRE:  413 16:14:04     -210.974655        0.034730
+matscipy ver
+atom2graph time : 0.0014085769653320312 s.
+FIRE:  414 16:14:04     -210.975403        0.034478
+matscipy ver
+atom2graph time : 0.001398324966430664 s.
+FIRE:  415 16:14:04     -210.976318        0.034178
+matscipy ver
+atom2graph time : 0.00140380859375 s.
+FIRE:  416 16:14:04     -210.977371        0.033736
+matscipy ver
+atom2graph time : 0.0012221336364746094 s.
+FIRE:  417 16:14:04     -210.978622        0.033261
+matscipy ver
+atom2graph time : 0.0012249946594238281 s.
+FIRE:  418 16:14:04     -210.980133        0.032827
+matscipy ver
+atom2graph time : 0.0012285709381103516 s.
+FIRE:  419 16:14:04     -210.981888        0.032128
+matscipy ver
+atom2graph time : 0.0014083385467529297 s.
+FIRE:  420 16:14:04     -210.983887        0.048064
+matscipy ver
+atom2graph time : 0.0011928081512451172 s.
+FIRE:  421 16:14:04     -210.985794        0.126376
+matscipy ver
+atom2graph time : 0.001178741455078125 s.
+FIRE:  422 16:14:04     -210.985092        0.359844
+matscipy ver
+atom2graph time : 0.0011866092681884766 s.
+FIRE:  423 16:14:04     -210.989059        0.041851
+matscipy ver
+atom2graph time : 0.001171112060546875 s.
+FIRE:  424 16:14:04     -210.989105        0.030449
+matscipy ver
+atom2graph time : 0.0011713504791259766 s.
+FIRE:  425 16:14:05     -210.989136        0.029939
+matscipy ver
+atom2graph time : 0.0014367103576660156 s.
+FIRE:  426 16:14:05     -210.989197        0.030027
+matscipy ver
+atom2graph time : 0.0014011859893798828 s.
+FIRE:  427 16:14:05     -210.989258        0.030093
+matscipy ver
+atom2graph time : 0.0014040470123291016 s.
+FIRE:  428 16:14:05     -210.989319        0.030403
+matscipy ver
+atom2graph time : 0.0014026165008544922 s.
+FIRE:  429 16:14:05     -210.989441        0.030080
+matscipy ver
+atom2graph time : 0.0012240409851074219 s.
+FIRE:  430 16:14:05     -210.989563        0.030000
+matscipy ver
+atom2graph time : 0.0021042823791503906 s.
+FIRE:  431 16:14:05     -210.989716        0.029886
+matscipy ver
+atom2graph time : 0.001239776611328125 s.
+FIRE:  432 16:14:05     -210.989868        0.029774
+matscipy ver
+atom2graph time : 0.0012292861938476562 s.
+FIRE:  433 16:14:05     -210.990112        0.029700
+matscipy ver
+atom2graph time : 0.0014204978942871094 s.
+FIRE:  434 16:14:05     -210.990387        0.029681
+matscipy ver
+atom2graph time : 0.001237630844116211 s.
+FIRE:  435 16:14:05     -210.990753        0.029662
+matscipy ver
+atom2graph time : 0.0012137889862060547 s.
+FIRE:  436 16:14:05     -210.991165        0.029557
+matscipy ver
+atom2graph time : 0.0013015270233154297 s.
+FIRE:  437 16:14:05     -210.991684        0.029378
+matscipy ver
+atom2graph time : 0.001252889633178711 s.
+FIRE:  438 16:14:05     -210.992325        0.029223
+matscipy ver
+atom2graph time : 0.0012423992156982422 s.
+FIRE:  439 16:14:05     -210.993103        0.029053
+matscipy ver
+atom2graph time : 0.001237630844116211 s.
+FIRE:  440 16:14:05     -210.994003        0.028726
+matscipy ver
+atom2graph time : 0.0012335777282714844 s.
+FIRE:  441 16:14:05     -210.995163        0.028546
+matscipy ver
+atom2graph time : 0.001405477523803711 s.
+FIRE:  442 16:14:05     -210.996506        0.028073
+matscipy ver
+atom2graph time : 0.001178741455078125 s.
+FIRE:  443 16:14:05     -210.998077        0.039568
+matscipy ver
+atom2graph time : 0.0012247562408447266 s.
+FIRE:  444 16:14:05     -210.999573        0.143378
+matscipy ver
+atom2graph time : 0.0011818408966064453 s.
+FIRE:  445 16:14:05     -210.997147        0.487970
+matscipy ver
+atom2graph time : 0.0012471675872802734 s.
+FIRE:  446 16:14:05     -211.001984        0.104976
+matscipy ver
+atom2graph time : 0.0014119148254394531 s.
+FIRE:  447 16:14:05     -211.002106        0.073834
+matscipy ver
+atom2graph time : 0.0012295246124267578 s.
+FIRE:  448 16:14:05     -211.002228        0.026179
+matscipy ver
+atom2graph time : 0.0012421607971191406 s.
+FIRE:  449 16:14:05     -211.002258        0.036694
+matscipy ver
+atom2graph time : 0.0012409687042236328 s.
+FIRE:  450 16:14:06     -211.002258        0.033929
+matscipy ver
+atom2graph time : 0.0012459754943847656 s.
+FIRE:  451 16:14:06     -211.002274        0.028621
+matscipy ver
+atom2graph time : 0.0012505054473876953 s.
+FIRE:  452 16:14:06     -211.002289        0.026358
+matscipy ver
+atom2graph time : 0.0012359619140625 s.
+FIRE:  453 16:14:06     -211.002304        0.026331
+matscipy ver
+atom2graph time : 0.0012278556823730469 s.
+FIRE:  454 16:14:06     -211.002335        0.026302
+matscipy ver
+atom2graph time : 0.001224517822265625 s.
+FIRE:  455 16:14:06     -211.002350        0.026274
+matscipy ver
+atom2graph time : 0.0013844966888427734 s.
+FIRE:  456 16:14:06     -211.002380        0.026249
+matscipy ver
+atom2graph time : 0.0013976097106933594 s.
+FIRE:  457 16:14:06     -211.002396        0.026227
+matscipy ver
+atom2graph time : 0.0013988018035888672 s.
+FIRE:  458 16:14:06     -211.002441        0.026211
+matscipy ver
+atom2graph time : 0.0014040470123291016 s.
+FIRE:  459 16:14:06     -211.002502        0.026201
+matscipy ver
+atom2graph time : 0.0014069080352783203 s.
+FIRE:  460 16:14:06     -211.002563        0.026199
+matscipy ver
+atom2graph time : 0.0013995170593261719 s.
+FIRE:  461 16:14:06     -211.002625        0.026200
+matscipy ver
+atom2graph time : 0.0014033317565917969 s.
+FIRE:  462 16:14:06     -211.002716        0.026197
+matscipy ver
+atom2graph time : 0.0012264251708984375 s.
+FIRE:  463 16:14:06     -211.002838        0.026173
+matscipy ver
+atom2graph time : 0.0012166500091552734 s.
+FIRE:  464 16:14:06     -211.002991        0.026117
+matscipy ver
+atom2graph time : 0.0011789798736572266 s.
+FIRE:  465 16:14:06     -211.003159        0.026026
+matscipy ver
+atom2graph time : 0.0011751651763916016 s.
+FIRE:  466 16:14:06     -211.003357        0.025921
+matscipy ver
+atom2graph time : 0.0013914108276367188 s.
+FIRE:  467 16:14:06     -211.003632        0.025832
+matscipy ver
+atom2graph time : 0.001397848129272461 s.
+FIRE:  468 16:14:06     -211.003937        0.025764
+matscipy ver
+atom2graph time : 0.0014085769653320312 s.
+FIRE:  469 16:14:06     -211.004318        0.025665
+matscipy ver
+atom2graph time : 0.0014138221740722656 s.
+FIRE:  470 16:14:06     -211.004776        0.025475
+matscipy ver
+atom2graph time : 0.0014019012451171875 s.
+FIRE:  471 16:14:06     -211.005310        0.025253
+matscipy ver
+atom2graph time : 0.0014052391052246094 s.
+FIRE:  472 16:14:06     -211.005997        0.025082
+matscipy ver
+atom2graph time : 0.0014004707336425781 s.
+FIRE:  473 16:14:06     -211.006805        0.024807
+matscipy ver
+atom2graph time : 0.0012638568878173828 s.
+FIRE:  474 16:14:06     -211.007767        0.024459
+matscipy ver
+atom2graph time : 0.0014543533325195312 s.
+FIRE:  475 16:14:07     -211.008942        0.024163
+matscipy ver
+atom2graph time : 0.0012264251708984375 s.
+FIRE:  476 16:14:07     -211.010269        0.056222
+matscipy ver
+atom2graph time : 0.0014574527740478516 s.
+FIRE:  477 16:14:07     -211.011154        0.193214
+matscipy ver
+atom2graph time : 0.0013971328735351562 s.
+FIRE:  478 16:14:07     -211.011917        0.023111
+matscipy ver
+atom2graph time : 0.0014057159423828125 s.
+FIRE:  479 16:14:07     -211.011948        0.023112
+matscipy ver
+atom2graph time : 0.0014028549194335938 s.
+FIRE:  480 16:14:07     -211.011963        0.023113
+matscipy ver
+atom2graph time : 0.0013995170593261719 s.
+FIRE:  481 16:14:07     -211.011978        0.023113
+matscipy ver
+atom2graph time : 0.0012276172637939453 s.
+FIRE:  482 16:14:07     -211.012024        0.023109
+matscipy ver
+atom2graph time : 0.0013968944549560547 s.
+FIRE:  483 16:14:07     -211.012054        0.023100
+matscipy ver
+atom2graph time : 0.001394510269165039 s.
+FIRE:  484 16:14:07     -211.012115        0.023084
+matscipy ver
+atom2graph time : 0.0013937950134277344 s.
+FIRE:  485 16:14:07     -211.012192        0.023062
+matscipy ver
+atom2graph time : 0.0011639595031738281 s.
+FIRE:  486 16:14:07     -211.012268        0.023030
+matscipy ver
+atom2graph time : 0.0011916160583496094 s.
+FIRE:  487 16:14:07     -211.012360        0.022991
+matscipy ver
+atom2graph time : 0.0011754035949707031 s.
+FIRE:  488 16:14:07     -211.012497        0.022945
+matscipy ver
+atom2graph time : 0.0012192726135253906 s.
+FIRE:  489 16:14:07     -211.012665        0.022893
+matscipy ver
+atom2graph time : 0.001218557357788086 s.
+FIRE:  490 16:14:07     -211.012848        0.022832
+matscipy ver
+atom2graph time : 0.0013997554779052734 s.
+FIRE:  491 16:14:07     -211.013092        0.022758
+matscipy ver
+atom2graph time : 0.0014007091522216797 s.
+FIRE:  492 16:14:07     -211.013412        0.022665
+matscipy ver
+atom2graph time : 0.0011763572692871094 s.
+FIRE:  493 16:14:07     -211.013779        0.022546
+matscipy ver
+atom2graph time : 0.0011780261993408203 s.
+FIRE:  494 16:14:07     -211.014221        0.022392
+matscipy ver
+atom2graph time : 0.0013837814331054688 s.
+FIRE:  495 16:14:07     -211.014786        0.022209
+matscipy ver
+atom2graph time : 0.0013992786407470703 s.
+FIRE:  496 16:14:07     -211.015442        0.022016
+matscipy ver
+atom2graph time : 0.0012249946594238281 s.
+FIRE:  497 16:14:07     -211.016266        0.021720
+matscipy ver
+atom2graph time : 0.0014519691467285156 s.
+FIRE:  498 16:14:07     -211.017242        0.021433
+matscipy ver
+atom2graph time : 0.0014007091522216797 s.
+FIRE:  499 16:14:07     -211.018402        0.020923
+matscipy ver
+atom2graph time : 0.0014002323150634766 s.
+FIRE:  500 16:14:07     -211.019592        0.070390
+matscipy ver
+atom2graph time : 0.00139617919921875 s.
+FIRE:  501 16:14:08     -211.018066        0.323937
+matscipy ver
+atom2graph time : 0.0013971328735351562 s.
+FIRE:  502 16:14:08     -211.020996        0.121048
+matscipy ver
+atom2graph time : 0.0014011859893798828 s.
+FIRE:  503 16:14:08     -211.021210        0.079224
+matscipy ver
+atom2graph time : 0.0013973712921142578 s.
+FIRE:  504 16:14:08     -211.021362        0.019982
+energy: -211.0213623046875
+Relaxation done. Time : 27.37416672706604 s.
