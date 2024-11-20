@@ -1,0 +1,18 @@
+7net-0 relaxation for Li20Ge2P4S24_122.
+GPU: NVIDIA GeForce RTX 2060 SUPER
+Number of atoms: 200
+Energy: -827.4392700195312
+Relaxation done_0. Time : 14.885401964187622 s.
+Number of atoms: 200
+Energy: -827.4392700195312
+Relaxation done_1. Time : 11.623114824295044 s.
+Number of atoms: 200
+Energy: -827.4392700195312
+Relaxation done_2. Time : 11.866252422332764 s.
+Number of atoms: 200
+Energy: -827.4392700195312
+Relaxation done_3. Time : 11.77222490310669 s.
+Number of atoms: 200
+Energy: -827.4392700195312
+Relaxation done_4. Time : 11.971660137176514 s.
+Average time : 12.423730850219727 s.

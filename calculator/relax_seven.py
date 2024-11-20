@@ -23,7 +23,7 @@ if __name__ == '__main__':
     run_type = sys.argv[2]
 
     # settings for relaxation
-    log_path = f'/data2_1/haekwan98/seven_dev/calculator/'
+    log_path = os.getcwd()
     log_mat_path = os.path.join(log_path, material)
 
     start_time = time.time()
@@ -40,7 +40,7 @@ if __name__ == '__main__':
         write_log(log_file, f'7net-0 relaxation for {mat_full_name}.', mode='w')
         write_log(log_file, f'GPU: {torch.cuda.get_device_name(0)}')
         time_list = []
-        for i in range(0, 10):
+        for i in range(0, 5):
             # for idx in unique_id_list:
             atoms = read(file_path)
             write_log(log_file, f'Number of atoms: {len(atoms)}')
@@ -54,7 +54,8 @@ if __name__ == '__main__':
             # relax the structure
             relax = FIRE(ucf)
             start_time = time.time()
-            relax.run(fmax=0.02, steps=3000)
+            # relax.run(fmax=0.02, steps=3000)
+            relax.run(steps=100)
             end_time = time.time()
 
             # saved relaxed structure
