@@ -1,2 +1,0 @@
-/data2_1/haekwan98/seven_dev/calculator/relax_seven.py:52: FutureWarning: Import UnitCellFilter from ase.filters
-  ucf = UnitCellFilter(atoms)

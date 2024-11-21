@@ -1,0 +1,66 @@
+7net-0 relaxation for Li20Ge2P4S24_112.
+GPU: Quadro P6000
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_0. Time : 35.799753189086914 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_1. Time : 30.024157285690308 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_2. Time : 29.99144148826599 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_3. Time : 29.97799253463745 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_4. Time : 29.9798686504364 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_5. Time : 29.987669229507446 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_6. Time : 30.014367818832397 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_7. Time : 29.97281789779663 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_8. Time : 29.98791766166687 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_9. Time : 29.992345571517944 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_10. Time : 30.06039023399353 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_11. Time : 30.301002979278564 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_12. Time : 30.04192328453064 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_13. Time : 29.993988037109375 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_14. Time : 30.001905918121338 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_15. Time : 30.00656247138977 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_16. Time : 29.996902227401733 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_17. Time : 29.996047735214233 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_18. Time : 30.00003409385681 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_19. Time : 29.985892295837402 s.
+Number of atoms: 100
+Energy: -421.58111572265625
+Relaxation done_20. Time : 30.06838035583496 s.
+Average time : 30.01908038854599 s.

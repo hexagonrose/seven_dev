@@ -1,0 +1,66 @@
+7net-0 relaxation for Li20Ge2P4S24_122.
+GPU: Quadro P6000
+Number of atoms: 200
+Energy: -843.3165283203125
+Relaxation done_0. Time : 51.65599250793457 s.
+Number of atoms: 200
+Energy: -843.314453125
+Relaxation done_1. Time : 50.099013805389404 s.
+Number of atoms: 200
+Energy: -843.31396484375
+Relaxation done_2. Time : 50.660545349121094 s.
+Number of atoms: 200
+Energy: -843.3165283203125
+Relaxation done_3. Time : 50.77851581573486 s.
+Number of atoms: 200
+Energy: -843.315673828125
+Relaxation done_4. Time : 51.6007776260376 s.
+Number of atoms: 200
+Energy: -843.3171997070312
+Relaxation done_5. Time : 51.67364716529846 s.
+Number of atoms: 200
+Energy: -843.3125
+Relaxation done_6. Time : 50.08929228782654 s.
+Number of atoms: 200
+Energy: -843.314453125
+Relaxation done_7. Time : 50.06433129310608 s.
+Number of atoms: 200
+Energy: -843.31396484375
+Relaxation done_8. Time : 50.67279052734375 s.
+Number of atoms: 200
+Energy: -843.3170776367188
+Relaxation done_9. Time : 51.74208307266235 s.
+Number of atoms: 200
+Energy: -843.31494140625
+Relaxation done_10. Time : 50.71717381477356 s.
+Number of atoms: 200
+Energy: -843.3170166015625
+Relaxation done_11. Time : 51.70639133453369 s.
+Number of atoms: 200
+Energy: -843.3140869140625
+Relaxation done_12. Time : 49.76383113861084 s.
+Number of atoms: 200
+Energy: -843.316650390625
+Relaxation done_13. Time : 51.49515223503113 s.
+Number of atoms: 200
+Energy: -843.314208984375
+Relaxation done_14. Time : 50.686683654785156 s.
+Number of atoms: 200
+Energy: -843.3165283203125
+Relaxation done_15. Time : 51.528393030166626 s.
+Number of atoms: 200
+Energy: -843.314453125
+Relaxation done_16. Time : 50.13097405433655 s.
+Number of atoms: 200
+Energy: -843.3168334960938
+Relaxation done_17. Time : 51.705177307128906 s.
+Number of atoms: 200
+Energy: -843.3162231445312
+Relaxation done_18. Time : 49.92113399505615 s.
+Number of atoms: 200
+Energy: -843.3137817382812
+Relaxation done_19. Time : 50.68824315071106 s.
+Number of atoms: 200
+Energy: -843.31689453125
+Relaxation done_20. Time : 51.895846128463745 s.
+Average time : 50.88099983930588 s.

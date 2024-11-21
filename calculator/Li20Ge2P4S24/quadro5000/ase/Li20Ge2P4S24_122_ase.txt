@@ -1,0 +1,66 @@
+7net-0 relaxation for Li20Ge2P4S24_122.
+GPU: Quadro P6000
+Number of atoms: 200
+Energy: -843.3171997070312
+Relaxation done_0. Time : 66.29555606842041 s.
+Number of atoms: 200
+Energy: -843.316162109375
+Relaxation done_1. Time : 67.19528675079346 s.
+Number of atoms: 200
+Energy: -843.3164672851562
+Relaxation done_2. Time : 67.153981924057 s.
+Number of atoms: 200
+Energy: -843.3148193359375
+Relaxation done_3. Time : 66.1432147026062 s.
+Number of atoms: 200
+Energy: -843.3140869140625
+Relaxation done_4. Time : 66.3111960887909 s.
+Number of atoms: 200
+Energy: -843.2998046875
+Relaxation done_5. Time : 64.49562478065491 s.
+Number of atoms: 200
+Energy: -843.31494140625
+Relaxation done_6. Time : 66.2123486995697 s.
+Number of atoms: 200
+Energy: -843.3140258789062
+Relaxation done_7. Time : 66.19879269599915 s.
+Number of atoms: 200
+Energy: -843.3164672851562
+Relaxation done_8. Time : 67.26813697814941 s.
+Number of atoms: 200
+Energy: -843.3169555664062
+Relaxation done_9. Time : 67.75527024269104 s.
+Number of atoms: 200
+Energy: -843.3145751953125
+Relaxation done_10. Time : 65.47945666313171 s.
+Number of atoms: 200
+Energy: -843.3135986328125
+Relaxation done_11. Time : 66.1735372543335 s.
+Number of atoms: 200
+Energy: -843.3143310546875
+Relaxation done_12. Time : 66.16024422645569 s.
+Number of atoms: 200
+Energy: -843.3135986328125
+Relaxation done_13. Time : 66.32039904594421 s.
+Number of atoms: 200
+Energy: -843.314453125
+Relaxation done_14. Time : 66.12885856628418 s.
+Number of atoms: 200
+Energy: -843.31494140625
+Relaxation done_15. Time : 67.09704637527466 s.
+Number of atoms: 200
+Energy: -843.314453125
+Relaxation done_16. Time : 65.40054631233215 s.
+Number of atoms: 200
+Energy: -843.3148193359375
+Relaxation done_17. Time : 65.42153477668762 s.
+Number of atoms: 200
+Energy: -843.313720703125
+Relaxation done_18. Time : 66.32202768325806 s.
+Number of atoms: 200
+Energy: -843.3154907226562
+Relaxation done_19. Time : 67.19158029556274 s.
+Number of atoms: 200
+Energy: -843.3067626953125
+Relaxation done_20. Time : 64.01902675628662 s.
+Average time : 66.22240554094314 s.
