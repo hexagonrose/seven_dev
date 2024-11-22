@@ -14,6 +14,7 @@ from sevenn.nn.sequential import AtomGraphSequential
 from sevenn.train.dataload import unlabeled_atoms_to_graph
 import sevenn._keys as KEY
 import sevenn.util as util
+from sevenn.sevennet_calculator import SevenNetCalculator
 
 # for test
 from torch_geometric.loader import DataLoader # test
