@@ -1,5 +1,6 @@
 import sys
 from typing import Any, Dict, List, Tuple, Union
+import warnings
 
 import torch
 import numpy as np
@@ -19,6 +20,7 @@ from sevenn.nn.edge_embedding import (
 from sevenn._const import DEFAULT_E3_EQUIVARIANT_MODEL_CONFIG, model_defaults
 from sevenn.model_build import init_edge_embedding, build_E3_equivariant_model
 from sevenn.sevennet_calculator import SevenNetCalculator
+import time
 
 def _patch_old_config(config: Dict[str, Any]):
     # Fixing my old mistakes
@@ -78,7 +80,8 @@ if __name__ == '__main__':
     atoms = read(f'{material}.cif')
 
     # load weight manually
-    checkpoint = util.pretrained_name_to_path('7net-0')
+    # checkpoint = util.pretrained_name_to_path('7net-0')
+    checkpoint = '/home/hexagonrose/SevenNet_exp/pretrained/m3g_c6/checkpoint_best.pth'
     check_point_loaded = torch.load(checkpoint, map_location='cpu', weights_only=False)
     model_state_dict = check_point_loaded['model_state_dict']
     config = check_point_loaded['config']
@@ -94,7 +97,7 @@ if __name__ == '__main__':
             config[k] = v.cpu()
 
     # multi cutoff model
-    multi_cutoff_list = [5, 5, 5, 5, 5]
+    multi_cutoff_list = [6, 6, 6, 6, 6]
     print(f'multi cutoff list: {multi_cutoff_list}')
     config['multi_cutoff'] = multi_cutoff_list
     model = build_E3_equivariant_model(config)
@@ -103,11 +106,20 @@ if __name__ == '__main__':
         updated = _map_old_model(model_state_dict)
         missing, not_used = model.load_state_dict(updated, strict=False)
         if len(not_used) > 0:
-            warnings.warn(f'Some keys are not used: {not_used}', UserWarning)
+            print(f'missing keys: {missing}')
+            print(f'not used keys: {not_used}')
+            for missing_key, not_used_key in zip(missing, not_used):
+                if not_used_key in updated:
+                    updated[missing_key] = updated[not_used_key]
+                    print(f"Mapped {not_used_key} to {missing_key}")
+        missing, not_used = model.load_state_dict(updated, strict=False)
+        print("After remapping:")
+        print(f'missing keys: {missing}')
+        print(f'not used keys: {not_used}')
 
     # data preprocess
     data = AtomGraphData.from_numpy_dict(
-        unlabeled_atoms_to_graph(atoms, 5.0)
+        unlabeled_atoms_to_graph(atoms, 6.0)
     )
     data.to('cuda')
 
@@ -115,7 +127,12 @@ if __name__ == '__main__':
     model.to('cuda')
     model.eval()
     model.set_is_batch_data(False)
+
+    start = time.time()
     output = model(data)
+    end = time.time()
+    print(f'mc inference time: {end-start} s')
+
     mc_energy = output[KEY.PRED_TOTAL_ENERGY].detach().cpu().item()
     mc_forces = output[KEY.PRED_FORCE].detach().cpu().numpy()
     mc_stress = np.array(-output[KEY.PRED_STRESS].detach().cpu().numpy()[[0, 1, 2, 4, 5, 3]])
@@ -124,7 +141,7 @@ if __name__ == '__main__':
     print(f'multi cutoff stress: {mc_stress}')
 
     # just normal sevennet calc
-    calc = SevenNetCalculator()
+    calc = SevenNetCalculator(model=checkpoint)
     atoms.calc = calc
     energy = atoms.get_potential_energy()
     forces = atoms.get_forces()
