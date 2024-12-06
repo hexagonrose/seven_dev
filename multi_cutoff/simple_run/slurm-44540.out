@@ -1,0 +1,20 @@
+GPU 1 assigned to the job
+/data2_1/haekwan98/seven_dev/multi_cutoff/simple_run/relax_seven.py:36: FutureWarning: Import UnitCellFilter from ase.filters
+  ucf = UnitCellFilter(atoms)
+Initiation done. Time : 5.063287973403931 s.
+initial
+AtomGraphData(
+  x=[36],
+  edge_index=[2, 1488],
+  pos=[36, 3],
+  node_attr=[36],
+  atomic_numbers=[36],
+  edge_vec=[1488, 3],
+  cell_lattice_vectors=[3, 3],
+  pbc_shift=[1488, 3],
+  cell_volume=410.892333984375,
+  num_atoms=36,
+  data_info={}
+)
+--------------------
+Energy: -314.3199462890625

@@ -1,0 +1,114 @@
+GPU 1 assigned to the job
+/data2_1/haekwan98/seven_dev/simple_test/relax_seven.py:36: FutureWarning: Import UnitCellFilter from ase.filters
+  ucf = UnitCellFilter(atoms)
+Initiation done. Time : 4.894672632217407 s.
+matsci on
+      Step     Time          Energy          fmax
+FIRE:    0 16:39:13     -314.319946        2.462787
+matsci on
+FIRE:    1 16:39:14     -315.140594        2.217896
+matsci on
+FIRE:    2 16:39:15     -316.357117        1.665667
+matsci on
+FIRE:    3 16:39:15     -317.299225        1.432078
+matsci on
+FIRE:    4 16:39:17     -317.869354        1.279150
+matsci on
+FIRE:    5 16:39:18     -318.265808        1.530375
+matsci on
+FIRE:    6 16:39:18     -318.666199        1.305587
+matsci on
+FIRE:    7 16:39:18     -319.031982        1.122381
+matsci on
+FIRE:    8 16:39:19     -319.284637        1.138688
+matsci on
+FIRE:    9 16:39:19     -319.504272        1.164652
+matsci on
+FIRE:   10 16:39:19     -319.814087        1.202978
+matsci on
+FIRE:   11 16:39:19     -320.190948        1.223529
+matsci on
+FIRE:   12 16:39:19     -320.513489        1.206891
+matsci on
+FIRE:   13 16:39:19     -320.738831        1.144280
+matsci on
+FIRE:   14 16:39:19     -320.934937        1.038220
+matsci on
+FIRE:   15 16:39:19     -321.115631        0.934588
+matsci on
+FIRE:   16 16:39:19     -321.279846        0.872532
+matsci on
+FIRE:   17 16:39:19     -321.515594        0.826434
+matsci on
+FIRE:   18 16:39:19     -321.793854        0.783319
+matsci on
+FIRE:   19 16:39:20     -321.984436        0.756131
+matsci on
+FIRE:   20 16:39:20     -322.127197        0.719663
+matsci on
+FIRE:   21 16:39:20     -322.265381        0.662961
+matsci on
+FIRE:   22 16:39:20     -322.386932        0.589125
+matsci on
+FIRE:   23 16:39:20     -322.524780        0.491375
+matsci on
+FIRE:   24 16:39:20     -322.649017        0.372187
+matsci on
+FIRE:   25 16:39:20     -322.750916        0.367230
+matsci on
+FIRE:   26 16:39:20     -322.837036        0.369554
+matsci on
+FIRE:   27 16:39:20     -322.908264        0.351331
+matsci on
+FIRE:   28 16:39:20     -322.982758        0.334702
+matsci on
+FIRE:   29 16:39:20     -323.045349        0.293509
+matsci on
+FIRE:   30 16:39:21     -323.085297        0.272526
+matsci on
+FIRE:   31 16:39:21     -323.107666        0.337643
+matsci on
+FIRE:   32 16:39:21     -322.530701        2.545313
+matsci on
+FIRE:   33 16:39:21     -323.023499        1.192997
+matsci on
+FIRE:   34 16:39:21     -323.139252        0.123523
+matsci on
+FIRE:   35 16:39:21     -323.139832        0.113935
+matsci on
+FIRE:   36 16:39:21     -323.140808        0.112304
+matsci on
+FIRE:   37 16:39:21     -323.141846        0.109810
+matsci on
+FIRE:   38 16:39:21     -323.142792        0.106446
+matsci on
+FIRE:   39 16:39:21     -323.143677        0.102323
+matsci on
+FIRE:   40 16:39:21     -323.144592        0.097647
+matsci on
+FIRE:   41 16:39:21     -323.145599        0.092618
+matsci on
+FIRE:   42 16:39:22     -323.146667        0.086844
+matsci on
+FIRE:   43 16:39:22     -323.147705        0.086847
+matsci on
+FIRE:   44 16:39:22     -323.148743        0.086554
+matsci on
+FIRE:   45 16:39:22     -323.150116        0.085379
+matsci on
+FIRE:   46 16:39:22     -323.151917        0.083370
+matsci on
+FIRE:   47 16:39:22     -323.153839        0.080564
+matsci on
+FIRE:   48 16:39:22     -323.155914        0.076796
+matsci on
+FIRE:   49 16:39:22     -323.158325        0.071723
+matsci on
+FIRE:   50 16:39:22     -323.160461        0.065325
+matsci on
+FIRE:   51 16:39:22     -323.162689        0.058766
+matsci on
+FIRE:   52 16:39:22     -323.164673        0.052014
+matsci on
+FIRE:   53 16:39:23     -323.166809        0.046016
+Energy: -323.16680908203125
