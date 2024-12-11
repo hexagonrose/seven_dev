@@ -1,0 +1,139 @@
+  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:00<01:26,  1.14it/s]  2%|▏         | 2/100 [00:02<02:25,  1.48s/it]  3%|▎         | 3/100 [00:03<02:11,  1.36s/it]  6%|▌         | 6/100 [00:04<00:45,  2.08it/s] 10%|█         | 10/100 [00:04<00:20,  4.33it/s] 14%|█▍        | 14/100 [00:04<00:12,  6.99it/s] 18%|█▊        | 18/100 [00:04<00:08,  9.97it/s] 22%|██▏       | 22/100 [00:04<00:05, 13.14it/s] 25%|██▌       | 25/100 [00:04<00:04, 15.53it/s] 29%|██▉       | 29/100 [00:04<00:03, 18.69it/s] 33%|███▎      | 33/100 [00:04<00:03, 21.42it/s] 37%|███▋      | 37/100 [00:05<00:02, 23.69it/s] 41%|████      | 41/100 [00:05<00:02, 25.48it/s] 45%|████▌     | 45/100 [00:05<00:02, 26.85it/s] 49%|████▉     | 49/100 [00:05<00:01, 27.68it/s] 53%|█████▎    | 53/100 [00:05<00:01, 28.65it/s] 57%|█████▋    | 57/100 [00:05<00:01, 29.09it/s] 61%|██████    | 61/100 [00:05<00:01, 29.71it/s] 65%|██████▌   | 65/100 [00:06<00:01, 29.95it/s] 69%|██████▉   | 69/100 [00:06<00:01, 30.35it/s] 73%|███████▎  | 73/100 [00:06<00:00, 30.40it/s] 77%|███████▋  | 77/100 [00:06<00:00, 30.44it/s] 81%|████████  | 81/100 [00:06<00:00, 30.43it/s] 85%|████████▌ | 85/100 [00:06<00:00, 30.57it/s] 89%|████████▉ | 89/100 [00:06<00:00, 30.68it/s] 93%|█████████▎| 93/100 [00:06<00:00, 30.68it/s] 97%|█████████▋| 97/100 [00:07<00:00, 30.50it/s]100%|██████████| 100/100 [00:07<00:00, 13.96it/s]
+inference time: 0.8696999549865723 s
+inference time: 1.896535873413086 s
+inference time: 1.2014687061309814 s
+inference time: 0.029497861862182617 s
+inference time: 0.028558015823364258 s
+inference time: 0.028498411178588867 s
+inference time: 0.028287172317504883 s
+inference time: 0.02716803550720215 s
+inference time: 0.028275728225708008 s
+inference time: 0.027008771896362305 s
+inference time: 0.028637170791625977 s
+inference time: 0.028134822845458984 s
+inference time: 0.028310060501098633 s
+inference time: 0.02723073959350586 s
+inference time: 0.027030467987060547 s
+inference time: 0.028190135955810547 s
+inference time: 0.028183460235595703 s
+inference time: 0.028216123580932617 s
+inference time: 0.027143239974975586 s
+inference time: 0.02700948715209961 s
+inference time: 0.02821493148803711 s
+inference time: 0.028159379959106445 s
+inference time: 0.02871537208557129 s
+inference time: 0.02791428565979004 s
+inference time: 0.029056072235107422 s
+inference time: 0.028522729873657227 s
+inference time: 0.02734661102294922 s
+inference time: 0.027233362197875977 s
+inference time: 0.028448104858398438 s
+inference time: 0.02807474136352539 s
+inference time: 0.02834939956665039 s
+inference time: 0.02845025062561035 s
+inference time: 0.02710127830505371 s
+inference time: 0.02796483039855957 s
+inference time: 0.028559446334838867 s
+inference time: 0.02736806869506836 s
+inference time: 0.027681589126586914 s
+inference time: 0.02858567237854004 s
+inference time: 0.028116226196289062 s
+inference time: 0.028134584426879883 s
+inference time: 0.027133941650390625 s
+inference time: 0.026966094970703125 s
+inference time: 0.028252124786376953 s
+inference time: 0.028055667877197266 s
+inference time: 0.02840709686279297 s
+inference time: 0.02839040756225586 s
+inference time: 0.027788400650024414 s
+inference time: 0.028859853744506836 s
+inference time: 0.02907538414001465 s
+inference time: 0.028171062469482422 s
+inference time: 0.02680659294128418 s
+inference time: 0.026833057403564453 s
+inference time: 0.027329444885253906 s
+inference time: 0.028138160705566406 s
+inference time: 0.028369665145874023 s
+inference time: 0.028151273727416992 s
+inference time: 0.02847433090209961 s
+inference time: 0.027222633361816406 s
+inference time: 0.026656150817871094 s
+inference time: 0.027920246124267578 s
+inference time: 0.026845455169677734 s
+inference time: 0.027277708053588867 s
+inference time: 0.027228832244873047 s
+inference time: 0.028361797332763672 s
+inference time: 0.02849602699279785 s
+inference time: 0.026810646057128906 s
+inference time: 0.02694869041442871 s
+inference time: 0.026602745056152344 s
+inference time: 0.028100967407226562 s
+inference time: 0.028694629669189453 s
+inference time: 0.02724909782409668 s
+inference time: 0.027317047119140625 s
+inference time: 0.02771592140197754 s
+inference time: 0.027078628540039062 s
+inference time: 0.02852153778076172 s
+inference time: 0.02834916114807129 s
+inference time: 0.027330398559570312 s
+inference time: 0.028496742248535156 s
+inference time: 0.028052330017089844 s
+inference time: 0.027188777923583984 s
+inference time: 0.028303861618041992 s
+inference time: 0.027148008346557617 s
+inference time: 0.02821493148803711 s
+inference time: 0.027884960174560547 s
+inference time: 0.026917457580566406 s
+inference time: 0.02711343765258789 s
+inference time: 0.02734851837158203 s
+inference time: 0.02841806411743164 s
+inference time: 0.02703547477722168 s
+inference time: 0.028039216995239258 s
+inference time: 0.027886152267456055 s
+inference time: 0.027808666229248047 s
+inference time: 0.027220487594604492 s
+inference time: 0.02747631072998047 s
+inference time: 0.02855396270751953 s
+inference time: 0.028902292251586914 s
+inference time: 0.02782917022705078 s
+inference time: 0.02752375602722168 s
+inference time: 0.027139902114868164 s
+inference time: 0.026825666427612305 s
+Total inference time: 7.16578221321106 s
+(DFT) potential_energy (eV/atom): -4.166412019230769
+Relax with from-scratch potential...
+inference time: 0.0320897102355957 s
+inference time: 0.02744579315185547 s
+inference time: 0.027100324630737305 s
+inference time: 0.027317523956298828 s
+inference time: 0.02698230743408203 s
+inference time: 0.026869773864746094 s
+inference time: 0.027335166931152344 s
+inference time: 0.028253793716430664 s
+inference time: 0.028154611587524414 s
+inference time: 0.0266568660736084 s
+inference time: 0.026661157608032227 s
+inference time: 0.027445077896118164 s
+inference time: 0.027251482009887695 s
+inference time: 0.02915644645690918 s
+inference time: 0.027872800827026367 s
+inference time: 0.02718806266784668 s
+inference time: 0.02691054344177246 s
+inference time: 0.02667975425720215 s
+inference time: 0.02693629264831543 s
+inference time: 0.027101993560791016 s
+inference time: 0.027829885482788086 s
+inference time: 0.02757573127746582 s
+inference time: 0.028640031814575195 s
+(From scratch) potential_energy (eV/atom): -4.164338918832632
+inference time: 0.11224126815795898 s
+inference time: 0.10906028747558594 s
+inference time: 0.10833597183227539 s
+inference time: 0.1098642349243164 s
+inference time: 0.10862207412719727 s
+inference time: 0.1073758602142334 s
+inference time: 0.10884666442871094 s
+inference time: 0.10799050331115723 s
+inference time: 0.10825324058532715 s
+inference time: 0.10840439796447754 s
+inference time: 0.10882973670959473 s

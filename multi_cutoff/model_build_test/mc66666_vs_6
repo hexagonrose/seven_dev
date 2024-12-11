@@ -1,0 +1,48 @@
+GPU 0 assigned to the job
+inference time: 0.8020889759063721 s
+inference time: 0.7277498245239258 s
+inference time: 1.3707740306854248 s
+inference time: 0.0597686767578125 s
+inference time: 0.057280778884887695 s
+inference time: 0.0565335750579834 s
+inference time: 0.0563969612121582 s
+inference time: 0.05638575553894043 s
+inference time: 0.0563511848449707 s
+inference time: 0.05652928352355957 s
+inference time: 0.05635714530944824 s
+inference time: 0.05651044845581055 s
+inference time: 0.056250810623168945 s
+inference time: 0.05637049674987793 s
+inference time: 0.0563201904296875 s
+inference time: 0.0562434196472168 s
+inference time: 0.05626368522644043 s
+inference time: 0.05624198913574219 s
+inference time: 0.05620002746582031 s
+inference time: 0.05612945556640625 s
+multi cutoff list: [6, 6, 6, 6, 6]
+missing keys: ['edge_embedding.basis_functions.0.coeffs']
+not used keys: ['edge_embedding.basis_function.coeffs']
+Mapped edge_embedding.basis_function.coeffs to edge_embedding.basis_functions.0.coeffs
+After remapping:
+missing keys: []
+not used keys: ['edge_embedding.basis_function.coeffs']
+mc inference time: 0.23928618431091309 s
+mc inference time: 0.3290994167327881 s
+mc inference time: 0.11826086044311523 s
+mc inference time: 0.058684349060058594 s
+mc inference time: 0.057843923568725586 s
+mc inference time: 0.05775785446166992 s
+mc inference time: 0.057503461837768555 s
+mc inference time: 0.05735492706298828 s
+mc inference time: 0.05732393264770508 s
+mc inference time: 0.057369232177734375 s
+mc inference time: 0.05756020545959473 s
+mc inference time: 0.05762171745300293 s
+mc inference time: 0.05738687515258789 s
+mc inference time: 0.057469844818115234 s
+mc inference time: 0.05829453468322754 s
+mc inference time: 0.05799055099487305 s
+mc inference time: 0.05779314041137695 s
+mc inference time: 0.057686567306518555 s
+mc inference time: 0.057729482650756836 s
+mc inference time: 0.057802677154541016 s

@@ -20,7 +20,9 @@ from sevenn.nn.edge_embedding import (
 from sevenn._const import DEFAULT_E3_EQUIVARIANT_MODEL_CONFIG, model_defaults
 from sevenn.model_build import init_edge_embedding, build_E3_equivariant_model
 from sevenn.sevennet_calculator import SevenNetCalculator
+import torch.nn as nn
 import time
+import copy
 
 def _patch_old_config(config: Dict[str, Any]):
     # Fixing my old mistakes
@@ -74,6 +76,11 @@ def _map_old_model(old_model_state_dict):
             new_model_state_dict[k] = v
     return new_model_state_dict
 
+def time_layer_forward(layer, input):
+    start_time = time.time()
+    output = layer(input)
+    elapsed_time = time.time() - start_time
+    return output, elapsed_time
 
 if __name__ == '__main__':
     material = sys.argv[1]
@@ -81,7 +88,7 @@ if __name__ == '__main__':
 
     # load weight manually
     # checkpoint = util.pretrained_name_to_path('7net-0')
-    checkpoint = '/home/hexagonrose/SevenNet_exp/pretrained/m3g_c6/checkpoint_best.pth'
+    checkpoint = '/data2/shared_data/pretrained_experimental/7net_m3g_c6/checkpoint_best.pth'
     check_point_loaded = torch.load(checkpoint, map_location='cpu', weights_only=False)
     model_state_dict = check_point_loaded['model_state_dict']
     config = check_point_loaded['config']
@@ -96,15 +103,14 @@ if __name__ == '__main__':
         if isinstance(v, torch.Tensor):
             config[k] = v.cpu()
 
-    # multi cutoff model
-    multi_cutoff_list = [6, 6, 6, 6, 6]
-    print(f'multi cutoff list: {multi_cutoff_list}')
-    config['multi_cutoff'] = multi_cutoff_list
-    model = build_E3_equivariant_model(config)
-    missing, _ = model.load_state_dict(model_state_dict, strict=False)
+    config2 = copy.deepcopy(config)
+
+    # normal model
+    model1 = build_E3_equivariant_model(config)
+    missing, _ = model1.load_state_dict(model_state_dict, strict=False)
     if len(missing) > 0:
         updated = _map_old_model(model_state_dict)
-        missing, not_used = model.load_state_dict(updated, strict=False)
+        missing, not_used = model1.load_state_dict(updated, strict=False)
         if len(not_used) > 0:
             print(f'missing keys: {missing}')
             print(f'not used keys: {not_used}')
@@ -112,7 +118,7 @@ if __name__ == '__main__':
                 if not_used_key in updated:
                     updated[missing_key] = updated[not_used_key]
                     print(f"Mapped {not_used_key} to {missing_key}")
-        missing, not_used = model.load_state_dict(updated, strict=False)
+        missing, not_used = model1.load_state_dict(updated, strict=False)
         print("After remapping:")
         print(f'missing keys: {missing}')
         print(f'not used keys: {not_used}')
@@ -123,34 +129,77 @@ if __name__ == '__main__':
     )
     data.to('cuda')
 
-    # run model
-    model.to('cuda')
-    model.eval()
-    model.set_is_batch_data(False)
+    # run model1
+    model1.to('cuda')
+    model1.eval()
+    model1.set_is_batch_data(False)
 
-    start = time.time()
-    output = model(data)
-    end = time.time()
-    print(f'mc inference time: {end-start} s')
+    for i in range(20):
+        start = time.time()
+        output = model1(data)
+        end = time.time()
+        print(f'normal inference time: {end-start} s\n')
+
+    energy = output[KEY.PRED_TOTAL_ENERGY].detach().cpu().item()
+    forces = output[KEY.PRED_FORCE].detach().cpu().numpy()
+    stress = np.array(-output[KEY.PRED_STRESS].detach().cpu().numpy()[[0, 1, 2, 4, 5, 3]])
+
+    # multi cutoff model
+    multi_cutoff_list = [6, 4, 4, 4, 6]
+    print(f'multi cutoff list: {multi_cutoff_list}')
+    config2['multi_cutoff'] = multi_cutoff_list
+    model2 = build_E3_equivariant_model(config2)
+    missing, _ = model2.load_state_dict(model_state_dict, strict=False)
+    if len(missing) > 0:
+        updated = _map_old_model(model_state_dict)
+        missing, not_used = model2.load_state_dict(updated, strict=False)
+        if len(not_used) > 0:
+            print(f'missing keys: {missing}')
+            print(f'not used keys: {not_used}')
+            for missing_key, not_used_key in zip(missing, not_used):
+                if not_used_key in updated:
+                    updated[missing_key] = updated[not_used_key]
+                    print(f"Mapped {not_used_key} to {missing_key}")
+        missing, not_used = model2.load_state_dict(updated, strict=False)
+        print("After remapping:")
+        print(f'missing keys: {missing}')
+        print(f'not used keys: {not_used}')
+
+    # data preprocess
+    data = AtomGraphData.from_numpy_dict(
+        unlabeled_atoms_to_graph(atoms, 6.0)
+    )
+    data.to('cuda')
+
+    # run model2
+    model2.to('cuda')
+    model2.eval()
+    model2.set_is_batch_data(False)
+
+    for i in range(20):
+        start = time.time()
+        output = model2(data)
+        end = time.time()
+        print(f'mc inference time: {end-start} s \n')
 
     mc_energy = output[KEY.PRED_TOTAL_ENERGY].detach().cpu().item()
     mc_forces = output[KEY.PRED_FORCE].detach().cpu().numpy()
     mc_stress = np.array(-output[KEY.PRED_STRESS].detach().cpu().numpy()[[0, 1, 2, 4, 5, 3]])
-    print(f'multi cutoff energy: {mc_energy}')
-    print(f'multi cutoff forces: {mc_forces}')
-    print(f'multi cutoff stress: {mc_stress}')
+    # print(f'multi cutoff energy: {mc_energy}')
+    # print(f'multi cutoff forces: {mc_forces}')
+    # print(f'multi cutoff stress: {mc_stress}')
 
     # just normal sevennet calc
-    calc = SevenNetCalculator(model=checkpoint)
-    atoms.calc = calc
-    energy = atoms.get_potential_energy()
-    forces = atoms.get_forces()
-    stress = atoms.get_stress()
-    print(f'energy: {energy}')
-    print(f'forces: {forces}')
-    print(f'stress: {stress}')
+    # calc = SevenNetCalculator(model=checkpoint)
+    # atoms.calc = calc 
+    # energy = atoms.get_potential_energy()
+    # forces = atoms.get_forces()
+    # stress = atoms.get_stress()
+    # # print(f'energy: {energy}')
+    # # print(f'forces: {forces}')
+    # # print(f'stress: {stress}')
 
-    # compare
-    print(f'energy equal?: {np.isclose(mc_energy, energy)}')
-    print(f'forces equal?: {np.allclose(mc_forces, forces, atol=1e-6)}')
-    print(f'stress equal?: {np.allclose(mc_stress, stress, atol=1e-6)}')
+    # # compare
+    # print(f'energy equal?: {np.isclose(mc_energy, energy)}')
+    # print(f'forces equal?: {np.allclose(mc_forces, forces, atol=1e-6)}')
+    # print(f'stress equal?: {np.allclose(mc_stress, stress, atol=1e-6)}')

@@ -1,0 +1,130 @@
+SevenNet: Scalable EquVariance-Enabled Neural Network
+version 0.10.2, Mon Dec  9 17:40:55 2024
+this file: /data2_1/haekwan98/seven_dev/multi_cutoff/train_test/cli_cut_5/log.sevenn
+reading yaml config...
+                ****
+              ********                                   .
+              *//////,  ..                               .            ,*.
+               ,,***.         ..                        ,          ********.                                  ./,
+             .      .                ..   /////.       .,       . */////////                               /////////.
+        .&@&/        .                  .(((((((..     /           *//////*.  ...                         *((((((((((.
+     @@@@@@@@@@*    @@@@@@@@@@  @@@@@    *((@@@@@     (     %@@@@@@@@@@  .@@@@@@     ..@@@@.   @@@@@@*    .(@@@@@(((*
+    @@@@@.          @@@@         @@@@@ .   @@@@@      #     %@@@@         @@@@@@@@     @@@@(,  @@@@@@@@.    @@@@@(*.
+    %@@@@@@@&       @@@@@@@@@@    @@@@@   @@@@@      #  ., .%@@@@@@@@@    @@@@@@@@@@   @@@@,   @@@@@@@@@@   @@@@@
+    ,(%@@@@@@@@@    @@@@@@@@@@     @@@@@ @@@@&       (//////%@@@@@@@@@    @@@@  @@@@@@ @@@@  . @@@@@  @@@@@.@@@@@
+        .   @@@@@   @@@@ .       .  @@@@@@@@%   . . ( .////,%@@@@         @@@@    @@@@@@@@@    @@@@@    @@@@@@@@@
+    (@@@@@@@@@@@    @@@@@@@@@@**.    @@@@@@*       *.      .%@@@@@@@@@@   @@@@    . @@@@@@@    @@@@@     .@@@@@@@
+     @@@@@@@@@.     @@@@@@@@@@///,    @@@@.      . /        %@@@@@@@@@@   @@@@***,    @@@@@    @@@@@        @@@@@
+           .           //////////*.               /           .            .*******...             . ,.
+          .&&&&&...     ,//////*.       ...////.  /            ,*/.     .   ,////,               .,/////
+          &@@@@@@                         ,(/((, *           ,((((((.                              .***.
+           ,/@(,                            ..   *            ,((((*
+                                                ,
+                                               .
+successfully read yaml config!
+
+from model configuration
+chemical_species    : auto
+_number_of_species  : auto
+_type_map           : auto
+irreps_manual       : ['128x0e', '128x0e+64x1e+32x2e', '128x0e+64x1e+32x2e', '128x0e+64x1e+32x2e', '128x0e']
+channel             : 32
+lmax                : 2
+lmax_edge           : -1
+lmax_node           : -1
+is_parity           : False
+radial_basis        : {'radial_basis_name': 'bessel', 'bessel_basis_num': 8}
+cutoff_function     : {'cutoff_function_name': 'poly_cut'}
+act_radial          : silu
+cutoff              : 5.0
+multi_cutoff        : None
+weight_nn_hidden_neurons: [64, 64]
+num_convolution_layer: 4
+act_scalar          : {'e': 'silu', 'o': 'tanh'}
+act_gate            : {'e': 'silu', 'o': 'tanh'}
+conv_denominator    : avg_num_neigh
+train_denominator   : False
+train_shift_scale   : False
+use_bias_in_linear  : False
+readout_as_fcn      : False
+readout_fcn_hidden_neurons: [30, 30]
+readout_fcn_activation: relu
+self_connection_type: linear
+interaction_type    : nequip
+_normalize_sph      : True
+
+from train configuration
+device              : cuda
+random_seed         : 616
+epoch               : 100
+loss                : Huber
+loss_param          : {'delta': 0.01}
+optimizer           : adam
+optim_param         : {'lr': 0.01}
+scheduler           : linearlr
+scheduler_param     : {'start_factor': 1.0, 'total_iters': 100, 'end_factor': 0.0001}
+force_loss_weight   : 0.1
+stress_loss_weight  : 1e-06
+per_epoch           : 10
+use_testset         : False
+continue            : {'checkpoint': False, 'reset_optimizer': False, 'reset_scheduler': False, 'reset_epoch': False, \
+                       'use_statistic_values_of_checkpoint': True}
+csv_log             : log.csv
+num_workers         : 0
+is_train_stress     : False
+train_shuffle       : True
+error_record        : [['Energy', 'MAE'], ['Force', 'MAE'], ['Energy', 'Loss'], ['Force', 'Loss'], ['TotalLoss', 'None']]
+best_metric         : TotalLoss
+is_ddp              : False
+ddp_backend         : nccl
+local_rank          : 0
+rank                : 0
+world_size          : 1
+
+from data configuration
+load_trainset_path  : ['/data2_1/haekwan98/seven_dev/multi_cutoff/train_test/cut_5/sevenn_data/train.pt']
+dtype               : single
+data_format         : ase
+data_format_args    : {}
+save_dataset_path   : False
+save_by_label       : False
+save_by_train_valid : False
+data_divide_ratio   : 0.1
+batch_size          : 8
+preprocess_num_cores: 1
+compute_statistics  : True
+dataset_type        : graph
+shift               : elemwise_reference_energies
+scale               : force_rms
+------------------------------------------------------------------------------------------------------------------------
+trainset distribution:
+force_of_atoms      : {'count': 212160, 'max': '6.126', 'mean': '-0.000', 'median': '-0.000', 'min': '-5.642', \
+                       'std': '0.656'}
+natoms              : {'Cl': 5440, 'Li': 32640, 'P': 5440, 'S': 27200, 'total': 70720}
+num_neighbor        : {'count': 70720, 'max': '37.000', 'mean': '27.180', 'median': '27.000', 'min': '19.000', \
+                       'std': '2.249'}
+per_atom_energy     : {'count': 170, 'max': '-3.965', 'mean': '-4.038', 'median': '-4.039', 'min': '-4.086', 'std': '0.043'}
+stress              : {'count': 1020, 'max': '0.017', 'mean': '0.004', 'median': '0.003', 'min': '-0.004', 'std': '0.005'}
+total_energy        : {'count': 170, 'max': '-1649.495', 'mean': '-1679.641', 'median': '-1680.201', 'min': '-1699.840', \
+                       'std': '18.032'}
+# structures (graph): 170
+------------------------------------------------------------------------------------------------------------------------
+Known species are obtained from the dataset
+shift is obtained from statistics
+scale is obtained from statistics
+conv_denominator is obtained from statistics
+
+Model building...
+Irreps of features
+edge_feature        : 1x0e+1x1e+1x2e
+0th node            : 128x0e
+1th node            : 128x0e+64x1e+32x2e
+2th node            : 128x0e+64x1e+32x2e
+3th node            : 128x0e+64x1e+32x2e
+readout irreps      : 128x0e
+# learnable parameters: 624200
+
+Failed to get error recorder key: TotalLoss or validset is missing. There will be no best checkpoint.
+------------------------------------------------------------------------------------------------------------------------
+Epoch 1/100  lr: 0.010000
+------------------------------------------------------------------------------------------------------------------------

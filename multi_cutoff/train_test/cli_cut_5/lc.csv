@@ -1,0 +1,1 @@
+epoch,lr,trainset_Energy_MAE,trainset_Force_MAE,trainset_Energy_Loss,trainset_Force_Loss,trainset_TotalLoss

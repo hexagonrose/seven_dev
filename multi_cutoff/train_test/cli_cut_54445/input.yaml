@@ -1,0 +1,72 @@
+model:
+  chemical_species: 'auto'
+  cutoff: 5.0
+  multi_cutoff: [5, 4, 4, 5]
+  channel: 32
+  is_parity: False
+  lmax: 2
+  num_convolution_layer: 4
+  irreps_manual:
+      - "128x0e"
+      - "128x0e+64x1e+32x2e"
+      - "128x0e+64x1e+32x2e"
+      - "128x0e+64x1e+32x2e"
+      - "128x0e"
+
+  weight_nn_hidden_neurons: [64, 64]
+  radial_basis:
+      radial_basis_name: 'bessel'
+      bessel_basis_num: 8
+  cutoff_function:
+      cutoff_function_name: 'poly_cut'
+      # cutoff_on: 4.0
+
+  act_gate: {'e': 'silu', 'o': 'tanh'}
+  act_scalar: {'e': 'silu', 'o': 'tanh'}
+
+  conv_denominator: 'avg_num_neigh'
+  train_shift_scale: False
+  train_denominator: False
+  self_connection_type: 'linear'
+        
+train:
+  train_shuffle: True
+  random_seed: 616
+  is_train_stress : False
+  epoch: 100
+
+  loss: 'Huber'
+  loss_param:
+      delta: 0.01
+
+  optimizer: 'adam'
+  optim_param:
+      lr: 0.01
+  scheduler: 'linearlr'
+  scheduler_param:
+      start_factor: 1.0
+      total_iters: 100
+      end_factor: 0.0001
+
+  force_loss_weight : 0.1
+  # stress_loss_weight: 0.01
+
+  error_record:
+      - ['Energy', 'MAE']
+      - ['Force', 'MAE']
+      # - ['Stress', 'MAE']
+      - ['Energy', 'Loss']
+      - ['Force', 'Loss']
+      # - ['Stress', 'Loss']
+      - ['TotalLoss', 'None']
+
+  per_epoch: 10
+  
+data:
+  batch_size: 16  # per GPU batch size, as the model trained with 32 GPUs, the effective batch size equals 4096.
+  shift: 'elemwise_reference_energies'
+  scale: 'force_rms'
+
+  save_by_train_valid: False
+  load_trainset_path: '/data2_1/haekwan98/seven_dev/multi_cutoff/train_test/cut_5445/sevenn_data/train.pt'
+  

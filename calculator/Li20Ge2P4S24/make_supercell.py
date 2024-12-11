@@ -4,7 +4,7 @@ from ase.build import make_supercell
 # Load the structure (e.g., from a CIF or POSCAR file)
 structure = read('Li20Ge2P4S24.cif')  # Replace with your file
 
-size_list = [[1, 1, 2], [1, 2, 2], [2, 2, 2]]
+size_list = [[1, 1, 2], [1, 2, 2], [1, 2, 3], [2, 2, 2], [2, 2, 3]]
 
 for size in size_list:
     i = size[0]

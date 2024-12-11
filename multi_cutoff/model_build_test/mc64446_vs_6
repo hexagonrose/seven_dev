@@ -1,0 +1,48 @@
+GPU 0 assigned to the job
+inference time: 0.8025126457214355 s
+inference time: 0.7316586971282959 s
+inference time: 1.357780933380127 s
+inference time: 0.05874276161193848 s
+inference time: 0.0565333366394043 s
+inference time: 0.056334495544433594 s
+inference time: 0.05602121353149414 s
+inference time: 0.05608344078063965 s
+inference time: 0.05612516403198242 s
+inference time: 0.05621838569641113 s
+inference time: 0.05614733695983887 s
+inference time: 0.056113243103027344 s
+inference time: 0.05621337890625 s
+inference time: 0.05621623992919922 s
+inference time: 0.056034088134765625 s
+inference time: 0.05615735054016113 s
+inference time: 0.05600762367248535 s
+inference time: 0.056143760681152344 s
+inference time: 0.05627942085266113 s
+inference time: 0.05615878105163574 s
+multi cutoff list: [6, 4, 4, 4, 6]
+missing keys: ['edge_embedding.basis_functions.0.coeffs', 'edge_embedding.basis_functions.1.coeffs']
+not used keys: ['edge_embedding.basis_function.coeffs']
+Mapped edge_embedding.basis_function.coeffs to edge_embedding.basis_functions.0.coeffs
+After remapping:
+missing keys: ['edge_embedding.basis_functions.1.coeffs']
+not used keys: ['edge_embedding.basis_function.coeffs']
+mc inference time: 0.24429869651794434 s
+mc inference time: 1.5279490947723389 s
+mc inference time: 0.1257631778717041 s
+mc inference time: 0.06293845176696777 s
+mc inference time: 0.06084871292114258 s
+mc inference time: 0.060576677322387695 s
+mc inference time: 0.060647010803222656 s
+mc inference time: 0.060904741287231445 s
+mc inference time: 0.060569047927856445 s
+mc inference time: 0.06026124954223633 s
+mc inference time: 0.06114912033081055 s
+mc inference time: 0.06066250801086426 s
+mc inference time: 0.06052756309509277 s
+mc inference time: 0.06063961982727051 s
+mc inference time: 0.06030631065368652 s
+mc inference time: 0.060387611389160156 s
+mc inference time: 0.06035804748535156 s
+mc inference time: 0.06036114692687988 s
+mc inference time: 0.06048154830932617 s
+mc inference time: 0.0604405403137207 s

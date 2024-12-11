@@ -1,0 +1,48 @@
+GPU 0 assigned to the job
+inference time: 1.3529531955718994 s
+inference time: 0.7306995391845703 s
+inference time: 1.365105152130127 s
+inference time: 0.059739112854003906 s
+inference time: 0.05700039863586426 s
+inference time: 0.05648159980773926 s
+inference time: 0.05668902397155762 s
+inference time: 0.05603146553039551 s
+inference time: 0.05596446990966797 s
+inference time: 0.05617070198059082 s
+inference time: 0.056348323822021484 s
+inference time: 0.05607342720031738 s
+inference time: 0.05601930618286133 s
+inference time: 0.05596280097961426 s
+inference time: 0.055915117263793945 s
+inference time: 0.055898427963256836 s
+inference time: 0.055925846099853516 s
+inference time: 0.05608963966369629 s
+inference time: 0.05600476264953613 s
+inference time: 0.056082963943481445 s
+multi cutoff list: [6, 5, 4, 5, 6]
+missing keys: ['edge_embedding.basis_functions.0.coeffs', 'edge_embedding.basis_functions.1.coeffs', 'edge_embedding.basis_functions.2.coeffs']
+not used keys: ['edge_embedding.basis_function.coeffs']
+Mapped edge_embedding.basis_function.coeffs to edge_embedding.basis_functions.0.coeffs
+After remapping:
+missing keys: ['edge_embedding.basis_functions.1.coeffs', 'edge_embedding.basis_functions.2.coeffs']
+not used keys: ['edge_embedding.basis_function.coeffs']
+mc inference time: 1.4374151229858398 s
+mc inference time: 1.8888354301452637 s
+mc inference time: 0.12855124473571777 s
+mc inference time: 0.06505370140075684 s
+mc inference time: 0.06377863883972168 s
+mc inference time: 0.06391406059265137 s
+mc inference time: 0.06346559524536133 s
+mc inference time: 0.06359314918518066 s
+mc inference time: 0.0633244514465332 s
+mc inference time: 0.06327080726623535 s
+mc inference time: 0.06314277648925781 s
+mc inference time: 0.06336402893066406 s
+mc inference time: 0.06327414512634277 s
+mc inference time: 0.06338787078857422 s
+mc inference time: 0.06395363807678223 s
+mc inference time: 0.06361651420593262 s
+mc inference time: 0.06357455253601074 s
+mc inference time: 0.06379890441894531 s
+mc inference time: 0.06403160095214844 s
+mc inference time: 0.06338977813720703 s

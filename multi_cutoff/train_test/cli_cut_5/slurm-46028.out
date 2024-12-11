@@ -1,0 +1,45 @@
+Normal cutoff is used
+Traceback (most recent call last):
+  File "/home/haekwan98/miniconda3/envs/seven_test/bin/sevenn", line 8, in <module>
+    sys.exit(main())
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/sevenn/main/sevenn.py", line 118, in main
+    train_v2(global_config, working_dir)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/sevenn/scripts/train.py", line 82, in train_v2
+    processing_epoch_v2(
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/sevenn/scripts/processing_epoch.py", line 73, in processing_epoch_v2
+    trainer.run_one_epoch(loader, k == train_loader_key, rec)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/sevenn/train/trainer.py", line 161, in run_one_epoch
+    output = self.model(batch)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/sevenn/nn/sequential.py", line 113, in forward
+    data = module(data)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/sevenn/nn/convolution.py", line 100, in forward
+    message = self.convolution(x[edge_src], data[self.key_filter], weight)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/e3nn/o3/_tensor_product/_tensor_product.py", line 529, in forward
+    return self._compiled_main_left_right(x, y, real_weight)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/haekwan98/miniconda3/envs/seven_test/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+RuntimeError: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript (most recent call last):
+  File "<eval_with_key>.48", line 50, in forward
+    reshape_12 = reshape_3.reshape(getitem_4, 128)
+    einsum_4 = torch.functional.einsum('ca,cab->cab', reshape_12, reshape_11);  reshape_12 = reshape_11 = None
+    einsum_5 = torch.functional.einsum('dbc,dca->dba', einsum_4, reshape_5);  einsum_4 = reshape_5 = None
+               ~~~~~~~~~~~~~~~~~~~~~~~ <--- HERE
+    reshape_13 = einsum_5.reshape(getitem_4, 384);  einsum_5 = None
+    getitem_10 = reshape_2[(slice(None, None, None), slice(256, 384, None))];  reshape_2 = None
+RuntimeError: CUDA out of memory. Tried to allocate 134.00 MiB. GPU 
+
